@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>JS WS</title>
+
+		<meta name="author" content="jgantunes">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>JS WS</h1>
+					<h3>JavaScript is fun!</h3>
+					<img src="https://3.bp.blogspot.com/-PTty3CfTGnA/TpZOEjTQ_WI/AAAAAAAAAeo/KeKt_D5X2xo/s1600/js.jpg" style="width: 100px;">
+					<p>
+						<small>Created using <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>, source is on <a href="https://github.com/jgantunes/js-ws">Github</a>.</small>
+					</p>
+				</section>
+
+				<section>
+					<h1>Who am I?</h1>
+					<p>
+						@jgantunes on <a href="//twitter.com/jgantunes">twitter</a> and <a href="//github.com/JGAntunes">github</a>
+					</p>
+					<p>
+						Coordinator @ <a href="http://sinfo.org">SINFO</a>
+					</p>
+					<p>
+						Software Engineer @ <a href="http://yld.io">YLD</a>
+					</p>
+
+				</section>
+				<section>
+					<h1>Just a quick show of hands...</h1>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h1>JavaScript</h1>
+						<p>"It's Java, but for the browser!"</p>
+						<p>"It's only used to animate stuff in your website..."</p>
+						<p>"Only used on the frontend..."</p>
+						<p>Oh you couldn't be more wrong!</p>
+					</section>
+
+					<section>
+						<h1>JavaScript</h1>
+						<p>"JavaScript is a high-level, dynamic, untyped, and interpreted programming language. It has been standardized in the ECMAScript language specification."</p>
+						<p>Wait... Whaat!?</p>
+					</section>
+
+					<section>
+						<h1>JavaScript</h1>
+						<p>Fully fledged technology.</p>
+						<p>Capable of running almost everywhere (your browser is just the begining!)</p>
+						<p>In fact, tons of enterprises run backend services in JavaScript through NodeJS</p>
+					</section>
+				</section>
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							<h2>Oh shut up! Show me some code.</h2>
+							```javascript
+							var thisIsAVariable = "And this is a string. This is not a number "
+							var thisIsANumber = 10
+							console.log(thisIsAVariable + thisIsANumber)
+							```
+							Let's try it! Open your browser.
+						</script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							<p><b>Strings:</b>  In JavaScript a bunch of letters, numbers, words or anything else is known as a String</li>
+							</p>
+							</br>
+							<p>
+								Strings have to begin AND end with a quotation mark. Single &#39; or double &quot; is fine, just make sure you use the same at the beginning as you do at the end.
+							</p>
+						</script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							<p><b>Values & Variables:</b>
+							</p>
+							</br>
+							<p >
+								Values are the simplest components in JavaScript. <b style="color:blue;">1</b> is a value, <b style="color:blue;">true</b> is a value, <b style="color:blue;">"hello"</b> is a value, <b style="color:blue;">function() {}</b>   is a value (we'll talk later on this, don't worry)
+							</p>
+							</br>
+							<p>To store values we use things called variables</p>
+
+							```javascript
+							var b = 'This is a string stored in a variable'
+							```
+						</script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							<p><b>Control flow</b></p>
+							</br>
+							<p >Like many other languages, you have your regular control flow statements</p>
+							<ul>
+								<li>if () { } else { }</li>
+								<li>while () { }</li>
+								<li>for (_ ; __ ; ___) { }</li>
+							</ul>
+
+							```javascript
+							var a = 20 * Math.random()
+							if (a > 15) {
+								while (a > 10) {
+									a--;
+									console.log(a)
+								}
+							}
+							```
+						</script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							<h2>Common pitfalls</h2>
+							<p>The semicolon dramma</p>
+							<p>Boolean evaluations</p>
+							<p>null vs undefined</p>
+
+							```javascript
+							var a
+							console.log(a)
+							a = null
+							console.log(a)
+							if (a) {
+								console.log('This will never be executed')
+							}
+							a = 0
+							if (a) {
+								console.log('Nor will this')
+							}
+							a = ''
+							if (a) {
+								console.log('Still no...')
+							}
+							a = 'Finally'
+							if (a) {
+								console.log(a)
+							}
+							```
+						</script>
+					</section>
+				</section>
+
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							<h2>Now, to the more complex elements!</h2>
+						</script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							<p><b>Functions</b></p>
+							</br>
+							<p>Functions are one of the most important building blocks in JS. They allow you to have modularity, but are also very, very powerful in a lot more aspects. Watch this:</p>
+
+							```javscript
+								function disguisedFunction (num, func) {
+									return function (otherNum) {
+										return func(num, otherNum)
+									}
+								}
+								var misteryFunction = disguisedFunction(2, Math.pow)
+								console.log(misteryFunction(3))
+							```
+						</script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							<p><b>Functions</b></p>
+							</br>
+							<p>Functions don't have a mandatory num of arguments. This is very useful!</p>
+							<p>But better yet, you can access all the arguments in an abstract form, through the arguments variable inside the function scope (watch out, it may seem like an array but some features are lacking!)</p>
+
+							```javscript
+								function disguisedFunction (num, func) {
+									if (arguments.length === 1) {
+										console.log('Well... creating a disguised function without a function is hard...')
+										return
+									}
+									return function (otherNum) {
+										return func(num, otherNum)
+									}
+								}
+								disguisedFunction(2)
+							```
+						</script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							<p><b>Scopes</b></p>
+							</br>
+							<p>Local scope is your best friend! Use it and abuse it whenever you can</p>
+
+							```javscript
+							function lynx (age, name, specialPower) {
+								return function (feeling) {
+									return 'I\'m a lynx named ' + name +
+										', age ' + age + '. My super power is ' +
+										specialPower + '. Right now I\'m feeling ' + feeling
+								}
+							}
+							var hacky = lynx(2, 'Hacky', 'be awesome at SINFO')
+							console.log(hacky('awesome to be learning some JavaScript!'))
+							```
+						</script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							<p><b>Arrays</b></p>
+							</br>
+
+							<p>All is good when you're looking to store simple information. But what if you wanted to store some kind of ordered list?</p>
+
+							```javscript
+							function presenceList () {
+								var list = []
+								return function (name) {
+									list.push(name)
+									return list
+								}
+							}
+							var workshopTicket = presenceList()
+							workshopTicket('João')
+							console.log(workshopTicket('Hacky'))
+							```
+						</script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							<p><b>Arrays</b></p>
+							</br>
+
+							<p>JavaScript natively provides with some useful methods to handle arrays</p>
+							<ul>
+								<li>myArray.length</li>
+								<li>myArray.push(value)</li>
+								<li>myArray.pop()</li>
+								<li>myArray.indexOf(value)</li>
+								<li>myArray.sort()</li>
+								<li>myArray.concat(otherArray)</li>
+								<li>...</li>
+							</ul>
+
+						</script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							<p><b>Objects</b></p>
+							</br>
+							<p>Arrays are good for lists, but for other tasks they can be hard to work with. Luckily, we've saved the best for last!
+							You can store complex information using objects! To do that we use JSON (JavaScript Object Notation), a very powerful, yet simple
+							structure that allows you to model complex data</p>
+
+							```javascript
+								var hacky = {
+									type: 'lynx',
+									powers: ['be cool', 'dance well', 'awesome javascripter'],
+									growl: function() {
+										console.log('Such Javascript!! Much wow!!')
+									},
+									personal: {
+										age: 2,
+										lovesSinfo: true
+									}
+								}
+								hacky.growl()
+								console.log('Age: ' + hacky.personal.age)
+								console.log('All the info:', hacky)
+							```
+						</script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							<p><b>Objects</b></p>
+							</br>
+
+							<p>JavaScript natively provides with some useful methods to handle objects</p>
+							<ul>
+								<li>myObject.keys()</li>
+								<li>myObject.values()</li>
+								<li>...</li>
+							</ul>
+
+							```javascript
+								function iterator (obj) {
+									for (var key in obj) {
+										if (obj.hasOwnProperty(key)) {
+											console.log('The key ' + key + ' has value ' + obj[value])
+										}
+									}
+								}
+							```
+							<p>Note the awesome obj[value] feature... It's like a key value store!
+						</script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							<p><b>Prototype</b></p>
+							</br>
+
+							<p>This will be a bonus round... If we have time for it.</p>
+
+						</script>
+					</section>
+				</section>
+
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							<h2>The challenge!</h2>
+							<p> You should also build your own lynx! Go nuts with it! But... There are some requirements:</p>
+							<ul>
+								<li> Your lynx must have name, a special growl and special powers.</li>
+								<li> Your lynx should be able to express it's awesome dance moves through a dance function.</li>
+								<li> Your lynx should have method to print all it's super powers.</li>
+								<li> Your lynx should have method to print all it's properties.</li>
+								<li> Oh... And almost forgot! Your lynx is deep into math, so it should be able to print a fibonacci sequence for a given number like:</li>
+							</ul>
+
+
+							```javascript
+							//The next number is found by adding the two numbers before it
+							myLynx.fib(10) //should print 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55
+							```
+						</script>
+					</section>
+				</section>
+
+
+				</section>
+				<section>
+					<section>
+						<h2>Please, I want more!</h2>
+						<a href="http://nodeschool.io/">http://nodeschool.io/</a><br>
+						<a href="http://www.meetup.com/require-lx/">http://www.meetup.com/require-lx/</a><br>
+						<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">https://developer.mozilla.org/en-US/docs/Web/JavaScript</a><br>
+						<a href="http://bdcampbell.net/javascript/book/javascript_the_good_parts.pdf">JavaScript: The Good Parts</a><br>
+						<a href="https://developer.mozilla.org/en/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_6_support_in_Mozilla">ECMAScript 2015 (6th Edition)</a><br>
+					</section>
+					<section>
+						<h2>The end</h2>
+						<b>return 'Thank you very much!'</b>
+					</section>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
