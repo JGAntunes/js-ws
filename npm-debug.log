@@ -1,650 +1,0 @@
-0 info it worked if it ends with ok
-1 verbose cli [ '/home/jgantunes/.nvm-fish/v0.10.26/bin/node',
-1 verbose cli   '/home/jgantunes/.nvm-fish/v0.10.26/bin/npm',
-1 verbose cli   'i' ]
-2 info using npm@1.4.3
-3 info using node@v0.10.26
-4 verbose readDependencies using package.json deps
-5 verbose install where, deps [ '/home/jgantunes/Documents/github/js-ws',
-5 verbose install   [ 'underscore',
-5 verbose install     'express',
-5 verbose install     'mustache',
-5 verbose install     'socket.io',
-5 verbose install     'grunt-contrib-qunit',
-5 verbose install     'grunt-contrib-jshint',
-5 verbose install     'grunt-contrib-cssmin',
-5 verbose install     'grunt-contrib-uglify',
-5 verbose install     'grunt-contrib-watch',
-5 verbose install     'grunt-contrib-sass',
-5 verbose install     'grunt-contrib-connect',
-5 verbose install     'grunt-zip',
-5 verbose install     'grunt' ] ]
-6 info preinstall reveal.js@2.6.2
-7 verbose readDependencies using package.json deps
-8 verbose cache add [ 'underscore@~1.5.1', null ]
-9 verbose cache add name=undefined spec="underscore@~1.5.1" args=["underscore@~1.5.1",null]
-10 verbose parsed url { protocol: null,
-10 verbose parsed url   slashes: null,
-10 verbose parsed url   auth: null,
-10 verbose parsed url   host: null,
-10 verbose parsed url   port: null,
-10 verbose parsed url   hostname: null,
-10 verbose parsed url   hash: null,
-10 verbose parsed url   search: null,
-10 verbose parsed url   query: null,
-10 verbose parsed url   pathname: 'underscore@~1.5.1',
-10 verbose parsed url   path: 'underscore@~1.5.1',
-10 verbose parsed url   href: 'underscore@~1.5.1' }
-11 verbose cache add name="underscore" spec="~1.5.1" args=["underscore","~1.5.1"]
-12 verbose parsed url { protocol: null,
-12 verbose parsed url   slashes: null,
-12 verbose parsed url   auth: null,
-12 verbose parsed url   host: null,
-12 verbose parsed url   port: null,
-12 verbose parsed url   hostname: null,
-12 verbose parsed url   hash: null,
-12 verbose parsed url   search: null,
-12 verbose parsed url   query: null,
-12 verbose parsed url   pathname: '~1.5.1',
-12 verbose parsed url   path: '~1.5.1',
-12 verbose parsed url   href: '~1.5.1' }
-13 verbose addNamed [ 'underscore', '~1.5.1' ]
-14 verbose addNamed [ null, '>=1.5.1-0 <1.6.0-0' ]
-15 verbose cache add [ 'express@~2.5.9', null ]
-16 verbose cache add name=undefined spec="express@~2.5.9" args=["express@~2.5.9",null]
-17 verbose parsed url { protocol: null,
-17 verbose parsed url   slashes: null,
-17 verbose parsed url   auth: null,
-17 verbose parsed url   host: null,
-17 verbose parsed url   port: null,
-17 verbose parsed url   hostname: null,
-17 verbose parsed url   hash: null,
-17 verbose parsed url   search: null,
-17 verbose parsed url   query: null,
-17 verbose parsed url   pathname: 'express@~2.5.9',
-17 verbose parsed url   path: 'express@~2.5.9',
-17 verbose parsed url   href: 'express@~2.5.9' }
-18 verbose cache add name="express" spec="~2.5.9" args=["express","~2.5.9"]
-19 verbose parsed url { protocol: null,
-19 verbose parsed url   slashes: null,
-19 verbose parsed url   auth: null,
-19 verbose parsed url   host: null,
-19 verbose parsed url   port: null,
-19 verbose parsed url   hostname: null,
-19 verbose parsed url   hash: null,
-19 verbose parsed url   search: null,
-19 verbose parsed url   query: null,
-19 verbose parsed url   pathname: '~2.5.9',
-19 verbose parsed url   path: '~2.5.9',
-19 verbose parsed url   href: '~2.5.9' }
-20 verbose addNamed [ 'express', '~2.5.9' ]
-21 verbose addNamed [ null, '>=2.5.9-0 <2.6.0-0' ]
-22 silly lockFile d90b1381-underscore-1-5-1 underscore@~1.5.1
-23 verbose lock underscore@~1.5.1 /home/jgantunes/.npm/d90b1381-underscore-1-5-1.lock
-24 silly lockFile 0d367583-express-2-5-9 express@~2.5.9
-25 verbose lock express@~2.5.9 /home/jgantunes/.npm/0d367583-express-2-5-9.lock
-26 verbose cache add [ 'socket.io@~0.9.13', null ]
-27 verbose cache add name=undefined spec="socket.io@~0.9.13" args=["socket.io@~0.9.13",null]
-28 verbose parsed url { protocol: null,
-28 verbose parsed url   slashes: null,
-28 verbose parsed url   auth: null,
-28 verbose parsed url   host: null,
-28 verbose parsed url   port: null,
-28 verbose parsed url   hostname: null,
-28 verbose parsed url   hash: null,
-28 verbose parsed url   search: null,
-28 verbose parsed url   query: null,
-28 verbose parsed url   pathname: 'socket.io@~0.9.13',
-28 verbose parsed url   path: 'socket.io@~0.9.13',
-28 verbose parsed url   href: 'socket.io@~0.9.13' }
-29 verbose cache add name="socket.io" spec="~0.9.13" args=["socket.io","~0.9.13"]
-30 verbose parsed url { protocol: null,
-30 verbose parsed url   slashes: null,
-30 verbose parsed url   auth: null,
-30 verbose parsed url   host: null,
-30 verbose parsed url   port: null,
-30 verbose parsed url   hostname: null,
-30 verbose parsed url   hash: null,
-30 verbose parsed url   search: null,
-30 verbose parsed url   query: null,
-30 verbose parsed url   pathname: '~0.9.13',
-30 verbose parsed url   path: '~0.9.13',
-30 verbose parsed url   href: '~0.9.13' }
-31 verbose addNamed [ 'socket.io', '~0.9.13' ]
-32 verbose addNamed [ null, '>=0.9.13-0 <0.10.0-0' ]
-33 silly lockFile 729f5b40-socket-io-0-9-13 socket.io@~0.9.13
-34 verbose lock socket.io@~0.9.13 /home/jgantunes/.npm/729f5b40-socket-io-0-9-13.lock
-35 verbose cache add [ 'mustache@~0.7.2', null ]
-36 verbose cache add name=undefined spec="mustache@~0.7.2" args=["mustache@~0.7.2",null]
-37 verbose parsed url { protocol: null,
-37 verbose parsed url   slashes: null,
-37 verbose parsed url   auth: null,
-37 verbose parsed url   host: null,
-37 verbose parsed url   port: null,
-37 verbose parsed url   hostname: null,
-37 verbose parsed url   hash: null,
-37 verbose parsed url   search: null,
-37 verbose parsed url   query: null,
-37 verbose parsed url   pathname: 'mustache@~0.7.2',
-37 verbose parsed url   path: 'mustache@~0.7.2',
-37 verbose parsed url   href: 'mustache@~0.7.2' }
-38 verbose cache add name="mustache" spec="~0.7.2" args=["mustache","~0.7.2"]
-39 verbose parsed url { protocol: null,
-39 verbose parsed url   slashes: null,
-39 verbose parsed url   auth: null,
-39 verbose parsed url   host: null,
-39 verbose parsed url   port: null,
-39 verbose parsed url   hostname: null,
-39 verbose parsed url   hash: null,
-39 verbose parsed url   search: null,
-39 verbose parsed url   query: null,
-39 verbose parsed url   pathname: '~0.7.2',
-39 verbose parsed url   path: '~0.7.2',
-39 verbose parsed url   href: '~0.7.2' }
-40 verbose addNamed [ 'mustache', '~0.7.2' ]
-41 verbose addNamed [ null, '>=0.7.2-0 <0.8.0-0' ]
-42 silly lockFile 171b84f8-mustache-0-7-2 mustache@~0.7.2
-43 verbose lock mustache@~0.7.2 /home/jgantunes/.npm/171b84f8-mustache-0-7-2.lock
-44 verbose cache add [ 'grunt-contrib-qunit@~0.2.2', null ]
-45 verbose cache add name=undefined spec="grunt-contrib-qunit@~0.2.2" args=["grunt-contrib-qunit@~0.2.2",null]
-46 verbose parsed url { protocol: null,
-46 verbose parsed url   slashes: null,
-46 verbose parsed url   auth: null,
-46 verbose parsed url   host: null,
-46 verbose parsed url   port: null,
-46 verbose parsed url   hostname: null,
-46 verbose parsed url   hash: null,
-46 verbose parsed url   search: null,
-46 verbose parsed url   query: null,
-46 verbose parsed url   pathname: 'grunt-contrib-qunit@~0.2.2',
-46 verbose parsed url   path: 'grunt-contrib-qunit@~0.2.2',
-46 verbose parsed url   href: 'grunt-contrib-qunit@~0.2.2' }
-47 verbose cache add name="grunt-contrib-qunit" spec="~0.2.2" args=["grunt-contrib-qunit","~0.2.2"]
-48 verbose parsed url { protocol: null,
-48 verbose parsed url   slashes: null,
-48 verbose parsed url   auth: null,
-48 verbose parsed url   host: null,
-48 verbose parsed url   port: null,
-48 verbose parsed url   hostname: null,
-48 verbose parsed url   hash: null,
-48 verbose parsed url   search: null,
-48 verbose parsed url   query: null,
-48 verbose parsed url   pathname: '~0.2.2',
-48 verbose parsed url   path: '~0.2.2',
-48 verbose parsed url   href: '~0.2.2' }
-49 verbose addNamed [ 'grunt-contrib-qunit', '~0.2.2' ]
-50 verbose addNamed [ null, '>=0.2.2-0 <0.3.0-0' ]
-51 silly lockFile 3e48bba4-grunt-contrib-qunit-0-2-2 grunt-contrib-qunit@~0.2.2
-52 verbose lock grunt-contrib-qunit@~0.2.2 /home/jgantunes/.npm/3e48bba4-grunt-contrib-qunit-0-2-2.lock
-53 verbose cache add [ 'grunt-contrib-jshint@~0.6.4', null ]
-54 verbose cache add name=undefined spec="grunt-contrib-jshint@~0.6.4" args=["grunt-contrib-jshint@~0.6.4",null]
-55 verbose parsed url { protocol: null,
-55 verbose parsed url   slashes: null,
-55 verbose parsed url   auth: null,
-55 verbose parsed url   host: null,
-55 verbose parsed url   port: null,
-55 verbose parsed url   hostname: null,
-55 verbose parsed url   hash: null,
-55 verbose parsed url   search: null,
-55 verbose parsed url   query: null,
-55 verbose parsed url   pathname: 'grunt-contrib-jshint@~0.6.4',
-55 verbose parsed url   path: 'grunt-contrib-jshint@~0.6.4',
-55 verbose parsed url   href: 'grunt-contrib-jshint@~0.6.4' }
-56 verbose cache add name="grunt-contrib-jshint" spec="~0.6.4" args=["grunt-contrib-jshint","~0.6.4"]
-57 verbose parsed url { protocol: null,
-57 verbose parsed url   slashes: null,
-57 verbose parsed url   auth: null,
-57 verbose parsed url   host: null,
-57 verbose parsed url   port: null,
-57 verbose parsed url   hostname: null,
-57 verbose parsed url   hash: null,
-57 verbose parsed url   search: null,
-57 verbose parsed url   query: null,
-57 verbose parsed url   pathname: '~0.6.4',
-57 verbose parsed url   path: '~0.6.4',
-57 verbose parsed url   href: '~0.6.4' }
-58 verbose addNamed [ 'grunt-contrib-jshint', '~0.6.4' ]
-59 verbose addNamed [ null, '>=0.6.4-0 <0.7.0-0' ]
-60 silly lockFile cd9f4e50-grunt-contrib-jshint-0-6-4 grunt-contrib-jshint@~0.6.4
-61 verbose lock grunt-contrib-jshint@~0.6.4 /home/jgantunes/.npm/cd9f4e50-grunt-contrib-jshint-0-6-4.lock
-62 verbose cache add [ 'grunt-contrib-cssmin@~0.4.1', null ]
-63 verbose cache add name=undefined spec="grunt-contrib-cssmin@~0.4.1" args=["grunt-contrib-cssmin@~0.4.1",null]
-64 verbose parsed url { protocol: null,
-64 verbose parsed url   slashes: null,
-64 verbose parsed url   auth: null,
-64 verbose parsed url   host: null,
-64 verbose parsed url   port: null,
-64 verbose parsed url   hostname: null,
-64 verbose parsed url   hash: null,
-64 verbose parsed url   search: null,
-64 verbose parsed url   query: null,
-64 verbose parsed url   pathname: 'grunt-contrib-cssmin@~0.4.1',
-64 verbose parsed url   path: 'grunt-contrib-cssmin@~0.4.1',
-64 verbose parsed url   href: 'grunt-contrib-cssmin@~0.4.1' }
-65 verbose cache add name="grunt-contrib-cssmin" spec="~0.4.1" args=["grunt-contrib-cssmin","~0.4.1"]
-66 verbose parsed url { protocol: null,
-66 verbose parsed url   slashes: null,
-66 verbose parsed url   auth: null,
-66 verbose parsed url   host: null,
-66 verbose parsed url   port: null,
-66 verbose parsed url   hostname: null,
-66 verbose parsed url   hash: null,
-66 verbose parsed url   search: null,
-66 verbose parsed url   query: null,
-66 verbose parsed url   pathname: '~0.4.1',
-66 verbose parsed url   path: '~0.4.1',
-66 verbose parsed url   href: '~0.4.1' }
-67 verbose addNamed [ 'grunt-contrib-cssmin', '~0.4.1' ]
-68 verbose addNamed [ null, '>=0.4.1-0 <0.5.0-0' ]
-69 silly lockFile dc4c5971-grunt-contrib-cssmin-0-4-1 grunt-contrib-cssmin@~0.4.1
-70 verbose lock grunt-contrib-cssmin@~0.4.1 /home/jgantunes/.npm/dc4c5971-grunt-contrib-cssmin-0-4-1.lock
-71 verbose cache add [ 'grunt-contrib-uglify@~0.2.4', null ]
-72 verbose cache add name=undefined spec="grunt-contrib-uglify@~0.2.4" args=["grunt-contrib-uglify@~0.2.4",null]
-73 verbose parsed url { protocol: null,
-73 verbose parsed url   slashes: null,
-73 verbose parsed url   auth: null,
-73 verbose parsed url   host: null,
-73 verbose parsed url   port: null,
-73 verbose parsed url   hostname: null,
-73 verbose parsed url   hash: null,
-73 verbose parsed url   search: null,
-73 verbose parsed url   query: null,
-73 verbose parsed url   pathname: 'grunt-contrib-uglify@~0.2.4',
-73 verbose parsed url   path: 'grunt-contrib-uglify@~0.2.4',
-73 verbose parsed url   href: 'grunt-contrib-uglify@~0.2.4' }
-74 verbose cache add name="grunt-contrib-uglify" spec="~0.2.4" args=["grunt-contrib-uglify","~0.2.4"]
-75 verbose parsed url { protocol: null,
-75 verbose parsed url   slashes: null,
-75 verbose parsed url   auth: null,
-75 verbose parsed url   host: null,
-75 verbose parsed url   port: null,
-75 verbose parsed url   hostname: null,
-75 verbose parsed url   hash: null,
-75 verbose parsed url   search: null,
-75 verbose parsed url   query: null,
-75 verbose parsed url   pathname: '~0.2.4',
-75 verbose parsed url   path: '~0.2.4',
-75 verbose parsed url   href: '~0.2.4' }
-76 verbose addNamed [ 'grunt-contrib-uglify', '~0.2.4' ]
-77 verbose addNamed [ null, '>=0.2.4-0 <0.3.0-0' ]
-78 silly lockFile dcf05dfd-grunt-contrib-uglify-0-2-4 grunt-contrib-uglify@~0.2.4
-79 verbose lock grunt-contrib-uglify@~0.2.4 /home/jgantunes/.npm/dcf05dfd-grunt-contrib-uglify-0-2-4.lock
-80 verbose cache add [ 'grunt-contrib-watch@~0.5.3', null ]
-81 verbose cache add name=undefined spec="grunt-contrib-watch@~0.5.3" args=["grunt-contrib-watch@~0.5.3",null]
-82 verbose parsed url { protocol: null,
-82 verbose parsed url   slashes: null,
-82 verbose parsed url   auth: null,
-82 verbose parsed url   host: null,
-82 verbose parsed url   port: null,
-82 verbose parsed url   hostname: null,
-82 verbose parsed url   hash: null,
-82 verbose parsed url   search: null,
-82 verbose parsed url   query: null,
-82 verbose parsed url   pathname: 'grunt-contrib-watch@~0.5.3',
-82 verbose parsed url   path: 'grunt-contrib-watch@~0.5.3',
-82 verbose parsed url   href: 'grunt-contrib-watch@~0.5.3' }
-83 verbose cache add name="grunt-contrib-watch" spec="~0.5.3" args=["grunt-contrib-watch","~0.5.3"]
-84 verbose parsed url { protocol: null,
-84 verbose parsed url   slashes: null,
-84 verbose parsed url   auth: null,
-84 verbose parsed url   host: null,
-84 verbose parsed url   port: null,
-84 verbose parsed url   hostname: null,
-84 verbose parsed url   hash: null,
-84 verbose parsed url   search: null,
-84 verbose parsed url   query: null,
-84 verbose parsed url   pathname: '~0.5.3',
-84 verbose parsed url   path: '~0.5.3',
-84 verbose parsed url   href: '~0.5.3' }
-85 verbose addNamed [ 'grunt-contrib-watch', '~0.5.3' ]
-86 verbose addNamed [ null, '>=0.5.3-0 <0.6.0-0' ]
-87 silly lockFile b469febc-grunt-contrib-watch-0-5-3 grunt-contrib-watch@~0.5.3
-88 verbose lock grunt-contrib-watch@~0.5.3 /home/jgantunes/.npm/b469febc-grunt-contrib-watch-0-5-3.lock
-89 verbose cache add [ 'grunt-contrib-sass@~0.5.0', null ]
-90 verbose cache add name=undefined spec="grunt-contrib-sass@~0.5.0" args=["grunt-contrib-sass@~0.5.0",null]
-91 verbose parsed url { protocol: null,
-91 verbose parsed url   slashes: null,
-91 verbose parsed url   auth: null,
-91 verbose parsed url   host: null,
-91 verbose parsed url   port: null,
-91 verbose parsed url   hostname: null,
-91 verbose parsed url   hash: null,
-91 verbose parsed url   search: null,
-91 verbose parsed url   query: null,
-91 verbose parsed url   pathname: 'grunt-contrib-sass@~0.5.0',
-91 verbose parsed url   path: 'grunt-contrib-sass@~0.5.0',
-91 verbose parsed url   href: 'grunt-contrib-sass@~0.5.0' }
-92 verbose cache add name="grunt-contrib-sass" spec="~0.5.0" args=["grunt-contrib-sass","~0.5.0"]
-93 verbose parsed url { protocol: null,
-93 verbose parsed url   slashes: null,
-93 verbose parsed url   auth: null,
-93 verbose parsed url   host: null,
-93 verbose parsed url   port: null,
-93 verbose parsed url   hostname: null,
-93 verbose parsed url   hash: null,
-93 verbose parsed url   search: null,
-93 verbose parsed url   query: null,
-93 verbose parsed url   pathname: '~0.5.0',
-93 verbose parsed url   path: '~0.5.0',
-93 verbose parsed url   href: '~0.5.0' }
-94 verbose addNamed [ 'grunt-contrib-sass', '~0.5.0' ]
-95 verbose addNamed [ null, '>=0.5.0-0 <0.6.0-0' ]
-96 silly lockFile 82bfa177-grunt-contrib-sass-0-5-0 grunt-contrib-sass@~0.5.0
-97 verbose lock grunt-contrib-sass@~0.5.0 /home/jgantunes/.npm/82bfa177-grunt-contrib-sass-0-5-0.lock
-98 verbose cache add [ 'grunt-contrib-connect@~0.4.1', null ]
-99 verbose cache add name=undefined spec="grunt-contrib-connect@~0.4.1" args=["grunt-contrib-connect@~0.4.1",null]
-100 verbose parsed url { protocol: null,
-100 verbose parsed url   slashes: null,
-100 verbose parsed url   auth: null,
-100 verbose parsed url   host: null,
-100 verbose parsed url   port: null,
-100 verbose parsed url   hostname: null,
-100 verbose parsed url   hash: null,
-100 verbose parsed url   search: null,
-100 verbose parsed url   query: null,
-100 verbose parsed url   pathname: 'grunt-contrib-connect@~0.4.1',
-100 verbose parsed url   path: 'grunt-contrib-connect@~0.4.1',
-100 verbose parsed url   href: 'grunt-contrib-connect@~0.4.1' }
-101 verbose cache add name="grunt-contrib-connect" spec="~0.4.1" args=["grunt-contrib-connect","~0.4.1"]
-102 verbose parsed url { protocol: null,
-102 verbose parsed url   slashes: null,
-102 verbose parsed url   auth: null,
-102 verbose parsed url   host: null,
-102 verbose parsed url   port: null,
-102 verbose parsed url   hostname: null,
-102 verbose parsed url   hash: null,
-102 verbose parsed url   search: null,
-102 verbose parsed url   query: null,
-102 verbose parsed url   pathname: '~0.4.1',
-102 verbose parsed url   path: '~0.4.1',
-102 verbose parsed url   href: '~0.4.1' }
-103 verbose addNamed [ 'grunt-contrib-connect', '~0.4.1' ]
-104 verbose addNamed [ null, '>=0.4.1-0 <0.5.0-0' ]
-105 silly lockFile a96a779c-grunt-contrib-connect-0-4-1 grunt-contrib-connect@~0.4.1
-106 verbose lock grunt-contrib-connect@~0.4.1 /home/jgantunes/.npm/a96a779c-grunt-contrib-connect-0-4-1.lock
-107 verbose cache add [ 'grunt-zip@~0.7.0', null ]
-108 verbose cache add name=undefined spec="grunt-zip@~0.7.0" args=["grunt-zip@~0.7.0",null]
-109 verbose parsed url { protocol: null,
-109 verbose parsed url   slashes: null,
-109 verbose parsed url   auth: null,
-109 verbose parsed url   host: null,
-109 verbose parsed url   port: null,
-109 verbose parsed url   hostname: null,
-109 verbose parsed url   hash: null,
-109 verbose parsed url   search: null,
-109 verbose parsed url   query: null,
-109 verbose parsed url   pathname: 'grunt-zip@~0.7.0',
-109 verbose parsed url   path: 'grunt-zip@~0.7.0',
-109 verbose parsed url   href: 'grunt-zip@~0.7.0' }
-110 verbose cache add name="grunt-zip" spec="~0.7.0" args=["grunt-zip","~0.7.0"]
-111 verbose parsed url { protocol: null,
-111 verbose parsed url   slashes: null,
-111 verbose parsed url   auth: null,
-111 verbose parsed url   host: null,
-111 verbose parsed url   port: null,
-111 verbose parsed url   hostname: null,
-111 verbose parsed url   hash: null,
-111 verbose parsed url   search: null,
-111 verbose parsed url   query: null,
-111 verbose parsed url   pathname: '~0.7.0',
-111 verbose parsed url   path: '~0.7.0',
-111 verbose parsed url   href: '~0.7.0' }
-112 verbose addNamed [ 'grunt-zip', '~0.7.0' ]
-113 verbose addNamed [ null, '>=0.7.0-0 <0.8.0-0' ]
-114 silly lockFile 36198899-grunt-zip-0-7-0 grunt-zip@~0.7.0
-115 verbose lock grunt-zip@~0.7.0 /home/jgantunes/.npm/36198899-grunt-zip-0-7-0.lock
-116 verbose cache add [ 'grunt@~0.4.0', null ]
-117 verbose cache add name=undefined spec="grunt@~0.4.0" args=["grunt@~0.4.0",null]
-118 verbose parsed url { protocol: null,
-118 verbose parsed url   slashes: null,
-118 verbose parsed url   auth: null,
-118 verbose parsed url   host: null,
-118 verbose parsed url   port: null,
-118 verbose parsed url   hostname: null,
-118 verbose parsed url   hash: null,
-118 verbose parsed url   search: null,
-118 verbose parsed url   query: null,
-118 verbose parsed url   pathname: 'grunt@~0.4.0',
-118 verbose parsed url   path: 'grunt@~0.4.0',
-118 verbose parsed url   href: 'grunt@~0.4.0' }
-119 verbose cache add name="grunt" spec="~0.4.0" args=["grunt","~0.4.0"]
-120 verbose parsed url { protocol: null,
-120 verbose parsed url   slashes: null,
-120 verbose parsed url   auth: null,
-120 verbose parsed url   host: null,
-120 verbose parsed url   port: null,
-120 verbose parsed url   hostname: null,
-120 verbose parsed url   hash: null,
-120 verbose parsed url   search: null,
-120 verbose parsed url   query: null,
-120 verbose parsed url   pathname: '~0.4.0',
-120 verbose parsed url   path: '~0.4.0',
-120 verbose parsed url   href: '~0.4.0' }
-121 verbose addNamed [ 'grunt', '~0.4.0' ]
-122 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
-123 silly lockFile cba964e3-grunt-0-4-0 grunt@~0.4.0
-124 verbose lock grunt@~0.4.0 /home/jgantunes/.npm/cba964e3-grunt-0-4-0.lock
-125 silly addNameRange { name: 'socket.io',
-125 silly addNameRange   range: '>=0.9.13-0 <0.10.0-0',
-125 silly addNameRange   hasData: false }
-126 verbose url raw socket.io
-127 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io' ]
-128 verbose url resolved https://registry.npmjs.org/socket.io
-129 info trying registry request attempt 1 at 00:57:13
-130 http GET https://registry.npmjs.org/socket.io
-131 silly addNameRange { name: 'grunt-contrib-sass',
-131 silly addNameRange   range: '>=0.5.0-0 <0.6.0-0',
-131 silly addNameRange   hasData: false }
-132 verbose url raw grunt-contrib-sass
-133 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-sass' ]
-134 verbose url resolved https://registry.npmjs.org/grunt-contrib-sass
-135 info trying registry request attempt 1 at 00:57:13
-136 verbose etag "AVVV15E2UX4XMHKC4DTSDG3KQ"
-137 http GET https://registry.npmjs.org/grunt-contrib-sass
-138 http 304 https://registry.npmjs.org/grunt-contrib-sass
-139 silly registry.get cb [ 304,
-139 silly registry.get   { date: 'Tue, 05 Apr 2016 23:57:13 GMT',
-139 silly registry.get     via: '1.1 varnish',
-139 silly registry.get     'cache-control': 'max-age=300',
-139 silly registry.get     etag: '"AVVV15E2UX4XMHKC4DTSDG3KQ"',
-139 silly registry.get     age: '65',
-139 silly registry.get     connection: 'keep-alive',
-139 silly registry.get     'x-served-by': 'cache-lcy1120-LCY',
-139 silly registry.get     'x-cache': 'HIT',
-139 silly registry.get     'x-cache-hits': '1',
-139 silly registry.get     'x-timer': 'S1459900633.300320,VS0,VE0',
-139 silly registry.get     vary: 'Accept-Encoding' } ]
-140 verbose etag grunt-contrib-sass from cache
-141 silly addNameRange number 2 { name: 'grunt-contrib-sass',
-141 silly addNameRange   range: '>=0.5.0-0 <0.6.0-0',
-141 silly addNameRange   hasData: true }
-142 silly addNameRange versions [ 'grunt-contrib-sass',
-142 silly addNameRange   [ '0.1.0',
-142 silly addNameRange     '0.1.1',
-142 silly addNameRange     '0.1.2',
-142 silly addNameRange     '0.1.3',
-142 silly addNameRange     '0.2.0',
-142 silly addNameRange     '0.2.1',
-142 silly addNameRange     '0.2.2',
-142 silly addNameRange     '0.3.0',
-142 silly addNameRange     '0.4.0',
-142 silly addNameRange     '0.4.1',
-142 silly addNameRange     '0.5.0',
-142 silly addNameRange     '0.5.1',
-142 silly addNameRange     '0.6.0',
-142 silly addNameRange     '0.2.2-rc7',
-142 silly addNameRange     '0.7.0',
-142 silly addNameRange     '0.7.1',
-142 silly addNameRange     '0.7.2',
-142 silly addNameRange     '0.7.3',
-142 silly addNameRange     '0.7.4',
-142 silly addNameRange     '0.8.0',
-142 silly addNameRange     '0.8.1',
-142 silly addNameRange     '0.9.0',
-142 silly addNameRange     '0.9.1',
-142 silly addNameRange     '0.9.2',
-142 silly addNameRange     '1.0.0' ] ]
-143 verbose addNamed [ 'grunt-contrib-sass', '0.5.1' ]
-144 verbose addNamed [ '0.5.1', '0.5.1' ]
-145 silly lockFile 70d84c29-grunt-contrib-sass-0-5-1 grunt-contrib-sass@0.5.1
-146 verbose lock grunt-contrib-sass@0.5.1 /home/jgantunes/.npm/70d84c29-grunt-contrib-sass-0-5-1.lock
-147 silly lockFile 70d84c29-grunt-contrib-sass-0-5-1 grunt-contrib-sass@0.5.1
-148 silly lockFile 70d84c29-grunt-contrib-sass-0-5-1 grunt-contrib-sass@0.5.1
-149 silly lockFile 82bfa177-grunt-contrib-sass-0-5-0 grunt-contrib-sass@~0.5.0
-150 silly lockFile 82bfa177-grunt-contrib-sass-0-5-0 grunt-contrib-sass@~0.5.0
-151 http 200 https://registry.npmjs.org/socket.io
-152 verbose bad json �     ��Yo�F�����¢�>�h��!@�M�>E�Ǭ�D�%���;+ڑ#[�l�F]�����?�����&V�U׆���M[T�3|�K�رf��DG%�2��R*.	�D�Ƨ�n"t!7��i�xg�F�?t�n�73��KN��q�A��Ħ�ǽ;�����������֢���A�u(lu�Լ6��U�v��n��<����Q�FˮF��2Q� ��r���͗D�.�l[4��6�����U�(�~��JZ�)���p29j�㥯C;���OS�׿��7&ٝLf��!O~}��Oo^ճX��yPeX�]ӷ���q�E�EK]֡�0?j���՛}�-�imI��b�!���77RO�����@�|��A�jm�.��h|_N�.�6��t�y	��b���"�AR�Z�nl���Ƨ"���^�b�	���^��C?g8�{��F����Gk�'���xek�����c�-g� y�AE/��IZIe�*<���DK�Xu��!�!����5h�W��N\��+q��䆗pA�9|����3��&�`����E>)���� G��}���\S��f\�)����׉�����F�C[7	�$2���**���`tN(�SԂ;��OAO�n��f��g�(a%�~A��G��0H�0v^���G���M����{h�&{@kA<WDI���h�$���u��R;<�Xm~�C�5�;����h�W,���v��O%ơ�����}����NIR*(`�"�'c����o�L�X���~"����>�'�ǌ~?���˽E�� AoZz_z��l.�j����[�|�4�ں	c�a�3V'M��ꐒA���$ox��b½>��3�m`|����v�[�<�O��Cr��h�a�[�����D5�,�$��&��ø[�����b���qi��qA�� ��ح��a����x�)-��QG��
-152 verbose bad json �{K�8m!���>u�׷�E�S-x�K��cc����m9z���,��q!�:^��"K�qπ[Ϙ!X���hI5�T�b$�����{�(V�t+�r�,�oo�Y4���N�IT,�{t�w.Np~L�����$w@,[,�`���,���X���	�ب����Y�
-152 verbose bad json �K^)4�&8��3<��OJK�*?^���,꽳X�6��x7���EI�BQ�q.�a�H�p�p��)����!.��Y������?   ���[]o�0�+<1d'vb?�6iB���B�c�lamS��`�z���>J��d��mn�$����󜳥�cF,��/����&1��(9��(��=�D�(t\��*��z���a,���E;bqg,����"ﮛ��T�7��"�4�iɋ)k/�����i��f=�\��.�'6j�}�Ȫ8�g�0�'����1)TGP7��=�lk,�A�k𔞦���}S���n�`�{<z!a�D8�TB;#�
-152 verbose bad json ��Td:Ǟ�S#��D��Xo�6&ޤ1w�z"X�]��EĒ=���#�-�]I���¼�nn�QU�m��_�Б�J���d-TIJ�M�wJ�2�7#�·��w���$��cY�Eءį���g��LEZS�Ƞ��סU���t�
-152 verbose bad json M*�~�\XFw���r����}�i���i�h�b/u�Y�gP�86�xN�
-152 verbose bad json �f�ֿlz�m�;|�_�����ۿg�MYf* A0Rf�R�A�nc�����\��M����������� �3|�LC��M腄���ve� Y���p``�o�0���Q���ޭ�锖�r�ɭ�9^���e��Y�����V.$|9�\�v���m�I�g[��g�g<y3K�j:Z�������I���H��P���0^�
-152 verbose bad json 4�/�ڙ��2!��]��2�S)�M�5 �;��cLUZ�g�/��NrI�-��dE\jj���S��cs����LI�v����c�a�?c=��b�#�b�� H)B*fu��D�$Pc��,ˡjC���0BU��[��E��-��s���?���d��������z�ԉ�ѣL8K�>�ǌ�����_������a�����#\���Zx���0��.1澹�c�����;�?O](f�rr�,��⢼�gqh�n�X�Gm�A|�Y�����Ts��n���iAs�K��5l%����,a�훉�2=�%����i����U�\α�:/�S���u��k�K�wi3ԫ���_޴��OuZ_��P���[~��Rd��ڃ�����Ă �`�4։�{���  ���\�N�0�փ�G���fV|��&�� )hX�󜓴��&�T*�*e������=�x����t����u欞Ʒ�(��K��SK����Z�g-}n�uK���:g|mܘN���5�v��v���}���q3b闈������ү����<��m>ߩ�U�[�`�L/��� "� �Zg�����xgZ$, �[4Z�/a��}Ʃ��m^�t?�ү�b�s�d�?u���@76�t��\�����,��ɇ���0 ���3(�F g����'�R���80���@���q����.������ 2m��* x	dk���6����Cҗ��2���h���@IE�� ���.����g�C�e�����PCi�$.�^)-�_Og�����{AI��� E*\pg��=2���B�gTQ �Q�6A|��B�m�)����9v�t-9�4�!x=&�VF���9�������?��`$�V8'T�q'PFi�E8�H�u@f'U��[2���3y��79pQ�A��eYQ��G@@tx?)D�0w�� �����7��~�8D��)��4�o�����O�_��Y����ۇ� k������P���ǐ~C߲�D�<2��]=O�wuӇ?��s�����F�_:>���ex  ����MN�0��� �ĉ} �,�رplUH���٩���(q��(�����x��s�j`�^n|���!��C����pw^�l��gB��`�[1�L�)ौb�!zaeS3�
-152 verbose bad json ���5z�� W�������Щ��{����s���b7]m��%���{2�����n��o6�:�	Xj���eX']E����\a`UiQ�U�{Ji"��/�ᙡ�����7�n�&a�2�2���ZO�8�%�s���w]P� �B��H7�nS�R@O�hYB�7^a55p���;S���,�	�腱�n�l��z�k�es.�{�{�el�x4�.^SoZn��vi��tv
-152 verbose bad json �,�9Uø(�5�1g8SU
-152 verbose bad json gt�0�˫q|�<�x}���a�%���S�a����ic礰?���?���S�wϭ>�}��q[c����?����r��#�������'T��)ƵJ�$4J
-152 verbose bad json �|p�:S`�5#\%1����O(��ر���c�?���t�.��{%�7N��Qc���MF�� �	��1m�3%�G�A«���|��.!���䃏|33�)�~�s�2�H8�m�����X1^Č�4oˤ�LPU��t������XU
-152 verbose bad json X�q��\�|����G�I���P���pg�.�o   �����n�0�߅sU9�c�ǉ�ԪET��g% DU'�#�|
-152 verbose bad json Bp ���w��#�^����.u��\��w7�MO�Y���i{rQ�����8 \G�#�?g���"�u�YFc�[xh:��Z����uƈ���(� �*`��b-畋KE�����|�XP����Hwl�=4�"ھ7hL��D[��^c�k/�v���c�/�Y�t1��T��Z)>"8����ӛ���F1�Dqʣ�:���b���d���n���mP)��1��|Q�������aJ�*�_�0J=X\Z)����y8�*q��3�|;���ȡ��@��nOG�%�{�+�)D�|��n�]v�H.�UL�:�J�"��%��L�u4gg�Fs6�b ��tX����=Xذw��^cԜ�;��M�����BЪ�J�ނOՉ�s������Wq�Kŏ��u�OG������{P����d��:⧕������2PCY9��@^�u�������7�)~����$"}����qw���pxڊ��fޅ�ݝ�7Ŭz����DB^��nZz����X�w�ر	�H�4h�8�ep9(]���	܉d^����H��g{�����ItR�:}�j`��y�  ����kj�0��$�zX���J��?��C[�d	�\���Y����'b`W�x{ڄ�<�������C�|^�.��nWӶQ ��Ud�m�pk���\�	k`r��1�L��*���T�wR������{��9�q��.g����x���{�𑥏<F#nϛr/!���4����)EjA�&��$�J0ǇE�
-152 verbose bad json �怱>*�bn��+�:R�Ř�}�B
-152 verbose bad json !���.��N>򡝆�䋢�SfR�X,H�Ռt����Y�>��:��ŚŚ�E��Q�5�2�Ɲl�C;'EH�lj$k�E�F[��5:/�c{#���r��Ў�^���|�E7�э��	w���4l����ܤ<�y��j=��v�f���jR�c �����ŨŨ-���Cu����M��l9�ؙ�C���uB��cm����^ܬN�i�Q��=:������k�tc?�v��E7r�_t���1��y~��a�   �����N1�_�x�l�[}�K�b��@b��{�J\EvW4�#a��=L���w�e�$<޳5�������m��ь2��0+����Z%p�M>�*b�����F�m,v��o�n̰s�
-152 verbose bad json �CO���Џ�X3���Q3�\�u�<ۉE�N��MI7�FL� G �|= ���4֙�rA
-152 verbose bad json _ud�qH�w�m 5�f,5�85#�����.����()𣶏���b��]9��hB ��QS$��p^�h���^l�R���eI�IK��*{�r>=V��ﶢ�8�y�NF]Yp�f�􀂒�Ny]���� �4u/��B5�.fq�`�,����o'�C�*%�nɸY���ƺ��L���� N����HS�^���T�T�`<��Ƚ��jq�LŔ�`ǯ�q�Z=-/�S�љ�g|F0=zn�����[9�_�4~�@;�h0�I�iE��x�������@�x�����_�/`�A0�/-8��z�����*lcSS!���tJ�[���`�i�z�*�$�g���R����MvF�p��cy~�
-152 verbose bad json B���-�V���a�kXd.n��9Br�3�G�8�ґ9�i Br�i��R-�h0����H��-�ل6�6S�d./�"��y�̽  ���]Mo�@�+��H������X�R����hv=�Xl��4����51��%�՗��l�}�v����7Ss�a�(���K���xZ��������r�ݸ�����:����87�ijx�zv�7��#���"�XJ~=��>�K8&�H_a@�̌�2ͩ�*�#I�$�cjO �F]�� �q(>r@����{�7 V�;�	�a�G>,d��em��J�L���R%r�"�YBy����C^����A�m���w�+|h�V3p��c~�7���՚Dn�?����gC���&
-152 verbose bad json �AA?L�(���h�KBm��9��E �e%U�'t����8��.��5��qU%�PV2hg�4vV�(��0�� �5�ڥ�*-��p#�Ia�"E%�	{��+�;�j<.H�
-152 verbose bad json �U�H�����}F�D*��	j���ؚf|W���a��[��{8��#���ut������|��E��E���r�R��m ���\kR�^�^7�u��qE��G1I�6��]fZ�V�j���;)�j�ZY ������.�TߏsZ��ӆ�r������c1�D�jV�[����[��ϊ��v�N�l��+g������#Os�t���L|����\�כm=�}`Y"Pku
-152 verbose bad json >R¹L��4�.ʓ,1�Bx��zt����Ro
-152 verbose bad json �JRw��эC/p!���Y󁃓���όI�]O��Gh-�:���p%��LvbƓjbLI��G��	;:����J�0)����k��x�\�8,0vW�Xd<;���*�bQ���=�[��������@���6oyLN��i��z^.�'�ųPF Ց�bn��I��,qU�ޱ�s7j/��=j;+���-�f	v"ٓҏH��4���3tݥ�	�R���F�*�L&D�p����iT,�&�3�Y���   ����An�0E��*9���w���J�	۩PU� u׻�;)	J��J�����y��?�9'�f���5�qw��	�@��=��r�X~�is�O<���aC���?���)C�&R&R�/E�DJ��zRR����H��
-152 verbose bad json VqF�˝p�`2$wB]Hj�]gBʈ%]����z��æeG�S��VcJ�Zت}bS���5�2�2��~��T�+&+	���3�jA5�-I�t 4��&��΄�K�);�񔔾aB6�.;�%�!��5
-152 verbose bad json ~�^o��u̀�B�ެRi�O�����at��G&���ݒ�9pvk�p������������UV��I�JFF�"��hg<�gB߈%M�o{/��q&�	wSdڴ�	��0G�N�����=�<نMF�Gor/�v���������d��:��j{�F�T�]O��p�A��B ��E��5'i�"Y���)�9}b�����	DlR��@n��}1��F2��J@�b������.�]�~�Ώ�=��P��6��5�<��+[2�f��|-�L�����K�Į��in�Q7����<p	���B��e�M��Jq�����%Y��P98��h�R"S�qUcno)�����XR$�   �����n�0��( ��:����/�Cы����K4���FB�8��������m���[YW�m.�n�p/�l^�+ ���O_�u v f ����[P��X6���"��30Ez4�%b�0����(�'�t����m��f��X9��}�̥�kbY^�G�k��NSC���{��c�7�z-X´��a���4=��HE��y�#�K:��O����}>��|�����t�5��,՟��̭B�gRȵ.3c�;Xi��>���yg=� ���P�t�0�
-152 verbose bad json nI���s���8:Ge��ɜ�W�h�9����5�h�D������]]W�c��ڼ9�h]���%��r��F�4EH8ou�1q��`(�E�>�W��Y�"�O�Qz�V�5�J`*����ԣ�x�Q��5��}1z"���5��=�a�xD6X|�]����۟��v������F
-152 verbose bad json -_�8����U�r���1:׉�	=D��/&-t����ϢF��-([E�(�u�Rip"tJ�p�.���.F���ȭ.b�)������pq�ג%�)p��xk���(r���2{�EN�U��D�=?>��C�^��>$���ff�u�*���q��o}.\��>et��G��V�3��k:F����`TZƦ�qe��pȘ0bDz�]B^&X�1vx����
-152 verbose bad json �<1��x.G>B���8�����G��� Ku�`$'�p�C=k_�!�b/�m�W����ѿ   ����]n�0�������{/Brɧ���~g�������
-152 verbose bad json ��@����e8�;�8�kv���t3�'a��6�ʉ�`t*TO��R�G�a�/&���#ٍ�GCn��=��rQg'jt�Ԏ�35%*H+,K%��}Õ���8[k�g�����+δ�ݮL.�̫ѡ��?c��/OO�j����O�|�����������s�e�b�����R��n�7�ŧ?����z�9��x��7��}E�i�!P����%b������:8\ �8����HY�uHo$��k�:� �j[*��ء�f ��|ޑ��A�ww�g�DY��=�ʟ�%�e�uRve��t��}�ܭ�uR�hZV�%5��c���DȢĂu��9�"#ʢգK��;��37Rք'� H�XT�Fp�j*�P��5���Վ(��L);�e�L髛xR�);��'e�F٘�#tq��T�����&!��%i�Ԋ�PeOZ�z�����_�wu:kI����E�LN`�i�M[�ũ~�j?Zvř6R����Q�FL�-;�Q6��H�����AG�N-�7�-�3�usO���*"3ｩ��P\r�f�"�V-�ـ>&�+-��ܨeU��),�l��=W:�[�Z P�¤TS�cuƗ�eW�i#e��P�;K(���O-�U�NQ:�,��c�����(������u�qF���ފ�L�	�R67Y>�Ɨ�gn��ƞ�\��lT��9�bz�
-152 verbose bad json �����|$Ɏ�g�H���d���ke�   ���]�n�@���:����[4��"B�RUB|=g<J�!���Ƶi6��T��JO��9��~]TD0�,[Ci���_Qvƴ�,�^�%� G��UUR��|��#�2I��P�jn��P�����E���1���*�Z��m���'�qQ�_p��]ә(;迒��W�����e?�z}F��Y��l i�h����E�W�����iyH�3qr,���h0�(Y�i��ϾҾA�i�����-���ky�&̳PM�mh�,쿍7N3.�k��x�<(�8�� �%m�J�&b5KV�<$�',�L4pI4Q��������s;�`;��C�N�˝x� X)�^m0A-6��2���k�m_��
-152 verbose bad json �8�1��*Ze�h}p s�!�"`D�r�Ӊ˦	d��0�ü�t��@d������3q����-�i.���v��#���l��f�^�_xl�!�ޡ4}���g\?51X����a��z2>�'�������~h�C���U>�Z�1�<�˭K��~TN�v����޼�����V������o��~����;��/w�*�����R)M�0�K���zZХd��
-152 verbose bad json ��n�?/�.��~��y��d�V�Mc!v�)�DC):K!y�FD/�m�8IƸ����n��w��Y�wOX�Y؍G<��c��j��b��%��۵���۵�wq,�Ai|�#�%�bf�h��_�K�j�U��	��q;�Q�B��q���r�E�ZG���]��-I�S��f�ڰ�w�}�R��AQpޖ������/��4=vЮ9�+`/�����)���Px��KM�9��h@8��S��� v7	���@��`��VOd=q��c�&�5c��AR�џ�   �����n[7�������9t�^�Z�i�:v��/�o�)�N�5`��{��~��C��ò��9���:������/vO�/�a�u��rl9���篌\Vν�+'����cb�`��Y�ݧ��4��Y��*�J���������$lv�\E�U;��$ʨ9�m����u;�5*>�뺰��	�����-UvO*U�aO¾�A|��r����_;aw�@}������q]x�d��ι9���~��E��뒈q܋�Y�E���b񽾒6pI�I;V���^9a?C���U��IUςz#��I�R;���å����c[�|t�Q/���R6$��r��ոM���Ǿ	�?�z���h�v�$�`ԷK�t����O,�$����fE��P�k�9���"�o����*G���8�5��a�E&����������i���}�;~�n�*�̊�����ݯ��x�|�������P�����7����+�(6JoL�]L(&-�����~�n��F��q[劷���-s)��S��0D��6���T���/�&}�q��!��}���'4ġM���*�չ`b���6��N�
-152 verbose bad json �j�T񱨸Ĝ�וL)1E�����*9/ �Wl����E���iK/ܛ8 yJ1��JO��Dw?"�lZg�/Z/��h�v�x�����z5���{���5�8](��i�F��#���Oz� �V�j?0�����f[��F�����h*�ݴ�^-h7V��.�N9�	�F�.�K��W���ac�����(���8B�A�x\y�b�M�=�n� �E���a�(��"�%S�y�M���r��%�zE9�7��Z/T��D�OM)��$��t w���Ilq���Oq0J'~���A��.atw��$R���:���tk𥍉�KV�Ϭb΢�b�,�%���Q�μ�_u$I�ޤ3/�[��$I�-�μ� ���%�e�}� o��ŗ�2��#&�y	I��KŠ��}�^�Uպ�t4��HM b�%xz�������Y)�_4���]���O2ŭb<�ŧ%��.@�%�T!*��.@6� �@$�s��l��x�h��Z�j4�n�<�W!x	xP<�؞(y��c��$&^t�!��6��"\�x��Kߛ�*DG�"��jϾt��2B�OhZϾtvh/yM88�ǌ��Kq d����[3��1��x�H��X����q�W��E�d��:Q�U#?�2���auTω�-/AnC�J��Yo[IB�������� �T�F|�WL7����܏j���5	j��V�H2q��h�%r�n�-�'���I
-152 verbose bad json 3("��69q]Eppv�-8�ʜ%1&���p�iIS|���w���V��I؂	c�]]؃eb�C�C�뚌�ͩ����A��S���$jR*ĒD�QkJY�P����a5*Eʪ���$����v_�^��@얾BR�h]M�jd���*o�R��.�'%���T��=�Bu$�p�\�ڤ�Ca�4�Td��Kl�ӯv!�bA�1sm�յN�J�2��/4d�1��J'��	��5.\��#�]Ja��M�V�(7!�+sc�+^�*�iT/�!���i+.�̆�u�H�I�353nIa6ԭ�!���gp�#�ԨG�\���iƈ�mX���e`Vu0�i�*�n�!_%$�����ZA#5HM=/t�p=MS��ٞC������H�QW�h�H"A���̺.5�����G����!�﫬-�����2��uY-Ĩ�u����7�����o�M����_Ƨ����������r5��ݻ���܎��o>���FH�\vӿ�  ��T�Yv�:����ɉ-�&w����H������(�_|�	(���_E����քܶ�ʵᮎq)<�P���^�������mǡ�Y����d5���!;��#󻜟��k�*��{-B(�?yr��|��9�u�f��+m�r�m����b��
-152 verbose bad json �Q�LZB���X�Yt��=oe�s|���x���%���kv3�$����P�n�e''����)|���3۲m�eCp��e�}�x(?�8?��)�^�X�5w��V�bm�lb�IyL�*�o\�{3bY�j"��u�bV�Or�Qލ����y^jV��X�(aL�ī�S�N}nm���]��sFn�l:v��U�k;=ǣ�FA�Y$���2������Hx�Kہc�K4鮇vt,{|;?D5^�̷0�qG���*��[��ڢ��S9͋��i�(kW^��ݢ̤�� ���Es($9��+�v�͗q��-��!����0�Z��&���$�e2:Fv�km��n�j�V67E�����R|��������Y]��5��� O5mp�W֊���(^&���5�cs�F|H�a����A�}��c�t.ʿ8ZT��(:���@�JڞZ�R����F3��W�G��ʯ=0F~�����
-152 verbose bad json �h��f�b�dH��T �v���Pk;���u_�\RV�w�;m��3X�����J�ծ$n���6�ן%�X���@�"���ܚR^@�3X�"�š��-��Fַ�����6ߩ��	W��60�h����gv�ͻ�V��|���� t	�Wd'f����Fe�]���!����ӂ�MA�W��@�ư+�:����(���{qU)x�ڂ??2�Z�KꪺZ�s�srsw����9��/;����ϊ�Ͳ�˿|������g�tr�W�U�� ����ҭ̫����y��a
-152 verbose bad json ���ɶ���v��\B�}vb�D�#oJ��+��c�M�yYel,�8"�w�)0��������*�CzR6�S���E��/⮂��+1����v�(��W����\7��?_��KW�
-152 verbose bad json ����b'\�9+�����o?~|4��a��`��kK�Ȟ�npQH�8�#���/w��M����zb�+�q�s���EP�hN{HX���J��~7�����%cg0����UB����t�@���m����
-152 verbose bad json �mI [���ߧp���O�Kq
-152 verbose bad json �o��dpH���]k��%�C�0nQ�1�:�B�X�,:�Q���g4J�rC�w=���ħ��F������M,ҵG"�˦ n|��J���gYm��Rk����v�@T"Ni��Ve#����pU��65|��u��鷢"q�� �ZE�g�B��[ʗ6�
-152 verbose bad json �o�/�� 3��Q��tH�i��WmsW�=_3�P���]��ը��a$NM�;`�+�i�TxG��-�� ;J8���,Lc���8bT[��T�ٜ���=/�s��5�8%�`���@�K�����Q���z+R3����,�"�5luEmh}q����Rm�W}�HL��p
-152 verbose bad json ����.�	ӧ,��(��g���6�������%����K $)'=
-152 verbose bad json ��4�5ŵ5�m�k����I$82�62�x\^�`��L%8TJ�� �, �]�gp�༠%K�(7�J���Xa�9��nW ᐍ���D%*�ԹuXX�@��2A І7�Q��Xu^�����N�`i�R�Q��"ΨF�%��'��������B�`�@����b�1X}％��>��`خa��,NA�zo�A�c����Y/��]D�;��⏟�������|�b�{C��u��S����(��ӷT�0��Z!X��G��4׸�A�]'׷�>V\�D�%�33&�!]�����8�:��δhڤ����/:�A\�^pJ%���3��+> �OU5I<�9��m�(k;�{?��
-152 verbose bad json ?"�C;Ŗq�D��QS�d��b�v�4$�5�e�.�� �o� {1��HӋ�h%l���I�F�b�����T&|��[C!ط_���}�I��M�V�Y@$���TT"`nGg�iRq�^~�SeWu��k+ π��Rw��D,)���i�INāa�K�uz�����+�5(��MPIY2���l�O8d�������;$���D<��ϟ��-j�˨�eZJ���\�CDR쾺:/q�f{�EŠ����@�(����]��F�*��Z��yp>/�G[5}���ѵ��i�5�q$�wz�)��]�;#�hjI ,,�!�J��k�l�$8m�YtJ�9׆iCiW���Nߔu��K�v���F����o�[H���� l���d
-152 verbose bad json N�wDY*�$�6���z�艊�!�lIs���`թ�9lb��>j�C9)��Pԛ����,�LPs�a�B֮O��ࣙ�D�S�g�1�o^��&��h�����T��ӣ-��Q�F��Q�)�^�*����Jϐ��̒�r����=���<X�,�fy�[F�T���	�E	���g2�I��\�FVB�a�C6���E����F�B����+q�  ���N�u�Ө(��R�,��q�ZhЪ�2|߼^O�KE���$]���)�?�F��<�@˸����z����n���.���ԕ8�0�Sjڑ��Əd��>��R��+���M%�Ԥ.;�0/׃��!�z���թ������c�K@5�tR�K��X�̻rkX�S$�r�[�8V�n�*(�.}�u���X&D��GL�}%�p�&�8�����	��\��G�o!w;���!җ�����<F:�r��V��:�#k̽�����V ��Q���Xe����1��1�9�)��Cm����;i�8^�5Ҧd�G�������Y9Y{Z@�7^���-�$ݶU���������o(gF�%Z��K��l|�T��6��v�S%�uR���6��Ԧ�hjSR��0�_FNδD�؄P*Qk�U�I{A��*n�^���v�i����N��xwM���Z<鏐���Ӿ���f&γ��q����N�ލs��Bn�t^i5茋	�o�V�޾^�.��t���C�.���yR��#Y;��K�a���/n~9lֿ�"F�e[��tz^��zO7l#�`:+=�A��<t��2���n!��A�`�j�0�M�t��"Ig��.�r�wߙM��^�\�k�ɫ�U���F����+�1�]���!��ݭަ�F�Nt���fQ�rd�6���6*v�z>4����}Lt��������3.<W�N2ଶ��W��lOgg�)�����q#FBrS����);����ӿb�--77����z�E�p�I�a_w�k�}�t�GX��:����5�k0�쇃�eqv�][�_���6�E|~>��G���v�)mӄ��z�����)�5+ty�;�jZ�����g3[/\���ozW�jg��A;�>��ΰ�΃X��c�M����/�(z��G#�[o�����Ʋ����\�ﾆ�  ��ԝ�r��_�-\`�����E����UNR����`AR�*Uy�<X�$_w��.@Rd)NR��A`=}���w�l���ݬN���2��I��i`X�.�Igk�	���&4D~�8%���Zu���	b�Ng�����@�y���v|v��C�8�'��J@���D��N�H��hJ��˰��^bF�F����s��x7�V��.��J��e ����s�˽q	ƈ����3P���V
-152 verbose bad json C�.��TJH�*y�����Ġ�����w����GpMߦ<zpXv$=9tX�_<���샔.�w��ry^��ú8�9d�M;ǳ@v�SgU�0�U�����̺kx�vL����ڶ��w���mw�h�������(���8�{w�KU�{ϊ��:x����-=��a�ј�`r�X���i��a���@�X�%���� �G���i�+d���O��&�-RwZ:;|O�0ŀ��C'y~z}+�Ay��f���h�������H��/�G��y!�m)6u�o:e, �Y)�H����/޾�\ �d]�*E{�$㽄_g�%˲�����E�P�_�}EwK�v�7��N�m�n�>zVIkd:�V����8�*�[8��8^"���p�m�>��鰔xl�=.�����7]om`NA�n�#m�2��w�̺'v~w�L@��cx�����2
-152 verbose bad json `����,��~��Sy�Ѫ�J �-��<���y���vE�B_/z%�UE� Y��4鑡�]I�oqXF���R�h�cU��TT��)s)gB2	s(#�&P8���a&��F�2I�Y_�V�j�f�M�6�l�'j�T8(
-152 verbose bad json �<����L�p�謹�O2ܖ���=����MR���D$���J��󢠫������U���-\ט��$B=��jRMf��.�=_���'��L�� �!���U~�?T�/�� n�����.�{/�Q��ҿD��̕5Y�jIY�z�;�^����b�Ǆv���eq�T} 2a������
-152 verbose bad json �g��F�e�""���+��Jd8����v�&ТԆ�%��H���vj�e=z}DB�J�x}��B��� t/�&�}@	}K���H��WoB��I5qe�����N�B��1X�+�*�~��*��tMd=��!��/C�PT��m;8%�1�r�A�R�Ug�#:�a*.�ʧ����G�*Mz˚(Vg��������-mU�ǳ�u/�(��D;� K����%:<�9@@8�8T'4��wO)�����t�l����1��(O�ia�m�m���+︘�z��߬�������+;�	�B�H�٠�8z�L�΢��y���hG����hyD�z����!Aל�?k�.�.�i�k�p9zD���Vo䋸濜HvIL�%�{�̎N�G�cZ�������0���GD���ǅ�3�O��t��J�œ곝K�P\E;��2��{J�P�ԅ����#2s�]�Pm&m�2�����R)u�=���,��'_�'�d2�ׅG6]����x�]߶4�����xwo��NӚ�Ļ�u�ŹaD�w��� <h��	v�h�����۽Y�6t����Ύy���>ky��)����SjH�jJɚ���Wah3;vupm9M�T�����4I����t��A���n>>G�n9a��\�	G���XJ-g
-152 verbose bad json �x��y�д���%��Y� ��q��u�A����#�6�L����#���}V)�{�4rb���u��#m�
-152 verbose bad json �|���g!��M�����wd��a�@���ҋ%]�/�ce掲�����p��3�4�={���ߘ�ˑ��։��h���#X�o�^����������M^rm6�|1�R�[���Fo������'<522P襮�i	���q��[[K�Q���-D.��UO�z���m>۲�ޅ�"Ǣ��)��f���������v�l@���R���kV��ҏ��+Y�1��" ��� i��8�~���7�Bg�K���8�"�j�&
-152 verbose bad json ����$����_�r��N��lIZЅ�E7���Cmj=#�ꎓ^�^��(][���0��)�lH�E}������0g-���2��"u��\6�����qN2�\ՂL@<]�����=Q눁�[qϿC�AK���`�9��AJ�	^���C���p�a�����ՙ:�ܳ��#���wp`溧�͹��_?�����@�)}J� �f�c^vr�D�����iEuF 63%��%Am��}Z�-��R"�G����$n�▕E��M��� jאҘ0������T�I���S��0��t���f�jމ��3���4b��9�洴)֖��`K_!����`����*�d]r��ϵ|�i�\=UQ�Q�����&۹�(#��I�+ۙ��i�P�g"�-4�L,F�����/I�S������J����e3��uz����Y	�����n�/��kT	9���/k�K��MF���{)9�ǘ{q����E���oފPJ���S� a�l
-152 verbose bad json ���_X�M����𽮦��`��`��j�h�7���9�?}	�a�i��Q�%T�ue�;���D��l�Ͱw��X�s����H�f����j��/(PKK���W��|^H�-ꠢ�����[��$���"H}�^Xnh��I�)������(:���לX��w�d���?�>���a�hF�~!x٣�U$�2�"ɾ�'�љ��'�L�꨷���Q�/-�7�X�t�,/�,�A�D��i��W|A��@�׎��QL�</�WFbjQ@b�Q��&�l�'6J� +'��I9��6TÞk�7���!����q)�����1mM���U�ٞZf�X�����wq��5@i6!8CE�#+���L�L���&�2ޭ0��;,l��*L��K����0��U=J'�yuҍ���~+{yR���tv���_&of?���>��ny�͏��,.���󟟾��'�T��&9�;ّ��E����~�̸K���+�y�п   ��՝_O[Gſ�Ux��\^Z��&�4Q�V��
-152 verbose bad json �P�� �۠(߽�sfw��P��Է��93g�=x���Y����𣱪*��س��8�i�P1�	����a5h@�����u��v�����W�|�3�v��Oh�p��n^nn��m��`���d����Y��cؗn�j$�מ��$�9j��1����B?emt�]��%j��MZa[���l/����DI�+�V��Fl�<M5�E�0+`�/ 'Ĕ��ô`P���\��0f��5_����(��}ZY�cyOTہ��F
-152 verbose bad json �6R�H&���I�<�@?eX ������ݑ���I_J�H~9�c�3	t���*�^���D����n��%��l�:��\g������U��!�Lr(��5J&830����B_�����>�|�J�����M5�������s�xb�;�1j���|I�j )Aqf�a�������vHJX1�c����ds?oN�'�-N_���{Xm�τ�!�Lf�!�a�]�0}�Nh��b�[��<ia��޵���1Z�=ȝn-��^�Q�B�r���um�%����c�**O����^fO��P��������9���e�%ou�.I���d��pueyE���u{�8��99���4lIҨP�?z�K�<_}1đ��G�n2^�gC􋲲
-152 verbose bad json �^yN�))�z9E�6�ޡ�ٽ�h��d]��K�@i�����g{Q�/���j����dBV��gVЈ���Kb�}N�l�K� 1��%IqW����z��n{��Q�xE���m&�NfgT�9zse�8����*u�y�I�_Yu�J(Ky���jz�i/��e�U]��i"�/��+����*��W�@�r�b��K�Os޷��l�#�����<��.��:��tYd��*�)S-��p�Zf�B�6�d�*M�����I��8��dֈ 2��G����X���hD��4 YGiHTR�6@�e�CS�~��;��Y�甗J(�Z&	�_!~L���A6��h~�q���D��g{o��Q�3H��}ߟB���{�V�}��)N|I��U��-���z�M���M��1��SX󋾶P2~��4ӈ�ǋ��T�]_�Y��"���������ߕї�E�O��x��s��u�1���H+e���$܇�&��G����˼�hN��
-152 verbose bad json ��_��Y���	���J���H��?/d7�Zc��j�TvZ�taWnP��O�l��%��I%^��4!�),i*<��A�Z�����V���#���D�?\z5&��� %�z޺W�{Ⱉצ� �=�w��Q8�0��db�g�C�M�$�
-152 verbose bad json �,#� ^��JJ�J;��"=�}�i�{��*UpdE���b5ly��F�e1������9O�Q0��.�8z���f! !����ٝ�P�8�iKK:0�o	 P�I�HCV���-�N�BC=��b>h��7��)K������҈�-"���������]�ق4c<��X���6V�Ø&з F)�#	��h���u��ĒN�8��i�CM	�)G[wJ��ް��ιy=9�+�u���y��nFF�.�@�`"-{�eؘ�w|x�E{龸g"ԷP�����mථ��#�|��@��><��NΨ<�G�+5|��{Dcʧ��e��.S�[�?rV2�7��Ǐ�'�6(� 
-153 error registry error parsing json
-154 silly registry.get cb [ 200,
-154 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-154 silly registry.get     etag: '"6M3XEDNXO4GN3FZJE7KBQGF5L"',
-154 silly registry.get     'content-type': 'application/json',
-154 silly registry.get     'content-encoding': 'gzip',
-154 silly registry.get     'cache-control': 'max-age=300',
-154 silly registry.get     'content-length': '19090',
-154 silly registry.get     'accept-ranges': 'bytes',
-154 silly registry.get     date: 'Tue, 05 Apr 2016 23:57:13 GMT',
-154 silly registry.get     via: '1.1 varnish',
-154 silly registry.get     age: '221',
-154 silly registry.get     connection: 'keep-alive',
-154 silly registry.get     'x-served-by': 'cache-lcy1129-LCY',
-154 silly registry.get     'x-cache': 'HIT',
-154 silly registry.get     'x-cache-hits': '2',
-154 silly registry.get     'x-timer': 'S1459900633.293790,VS0,VE0',
-154 silly registry.get     vary: 'Accept' } ]
-155 silly lockFile 729f5b40-socket-io-0-9-13 socket.io@~0.9.13
-156 silly lockFile 729f5b40-socket-io-0-9-13 socket.io@~0.9.13
-157 error SyntaxError: Unexpected token 
-157 error �     ��Yo�F�����¢�>�h��!@�M�>E�Ǭ�D�%���;+ڑ#[�l�F]�����?�����&V�U׆���M[T�3|�K�رf��DG%�2��R*.	�D�Ƨ�n"t!7��i�xg�F�?t�n�73��KN��q�A��Ħ�ǽ;�����������֢���A�u(lu�Լ6��U�v��n��<����Q�FˮF��2Q� ��r���͗D�.�l[4��6�����U�(�~��JZ�)���p29j�㥯C;���OS�׿��7&ٝLf��!O~}��Oo^ճX��yPeX�]ӷ���q�E�EK]֡�0?j���՛}�-�imI��b�!���77RO�����@�|��A�jm�.��h|_N�.�6��t�y	��b���"�AR�Z�nl���Ƨ"���^�b�	���^��C?g8�{��F����Gk�'���xek�����c�-g� y�AE/��IZIe�*<���DK�Xu��!�!����5h�W��N\��+q��䆗pA�9|����3��&�`����E>)���� G��}���\S��f\�)����׉�����F�C[7	�$2���**���`tN(�SԂ;��OAO�n��f��g�(a%�~A��G��0H�0v^���G���M����{h�&{@kA<WDI���h�$���u��R;<�Xm~�C�5�;����h�W,���v��O%ơ�����}����NIR*(`�"�'c����o�L�X���~"����>�'�ǌ~?���˽E�� AoZz_z��l.�j����[�|�4�ں	c�a�3V'M��ꐒA���$ox��b½>��3�m`|����v�[�<�O��Cr��h�a�[�����D5�,�$��&��ø[�����b���qi��qA�� ��ح��a����x�)-��QG��
-157 error �{K�8m!���>u�׷�E�S-x�K��cc����m9z���,��q!�:^��"K�qπ[Ϙ!X���hI5�T�b$�����{�(V�t+�r�,�oo�Y4���N�IT,�{t�w.Np~L�����$w@,[,�`���,���X���	�ب����Y�
-157 error �K^)4�&8��3<��OJK�*?^���,꽳X�6��x7���EI�BQ�q.�a�H�p�p��)����!.��Y������?   ���[]o�0�+<1d'vb?�6iB���B�c�lamS��`�z���>J��d��mn�$����󜳥�cF,��/����&1��(9��(��=�D�(t\��*��z���a,���E;bqg,����"ﮛ��T�7��"�4�iɋ)k/�����i��f=�\��.�'6j�}�Ȫ8�g�0�'����1)TGP7��=�lk,�A�k𔞦���}S���n�`�{<z!a�D8�TB;#�
-157 error ��Td:Ǟ�S#��D��Xo�6&ޤ1w�z"X�]��EĒ=���#�-�]I���¼�nn�QU�m��_�Б�J���d-TIJ�M�wJ�2�7#�·��w���$��cY�Eءį���g��LEZS�Ƞ��סU���t�
-157 error M*�~�\XFw���r����}�i���i�h�b/u�Y�gP�86�xN�
-157 error �f�ֿlz�m�;|�_�����ۿg�MYf* A0Rf�R�A�nc�����\��M����������� �3|�LC��M腄���ve� Y���p``�o�0���Q���ޭ�锖�r�ɭ�9^���e��Y�����V.$|9�\�v���m�I�g[��g�g<y3K�j:Z�������I���H��P���0^�
-157 error 4�/�ڙ��2!��]��2�S)�M�5 �;��cLUZ�g�/��NrI�-��dE\jj���S��cs����LI�v����c�a�?c=��b�#�b�� H)B*fu��D�$Pc��,ˡjC���0BU��[��E��-��s���?���d��������z�ԉ�ѣL8K�>�ǌ�����_������a�����#\���Zx���0��.1澹�c�����;�?O](f�rr�,��⢼�gqh�n�X�Gm�A|�Y�����Ts��n���iAs�K��5l%����,a�훉�2=�%����i����U�\α�:/�S���u��k�K�wi3ԫ���_޴��OuZ_��P���[~��Rd��ڃ�����Ă �`�4։�{���  ���\�N�0�փ�G���fV|��&�� )hX�󜓴��&�T*�*e������=�x����t����u欞Ʒ�(��K��SK����Z�g-}n�uK���:g|mܘN���5�v��v���}���q3b闈������ү����<��m>ߩ�U�[�`�L/��� "� �Zg�����xgZ$, �[4Z�/a��}Ʃ��m^�t?�ү�b�s�d�?u���@76�t��\�����,��ɇ���0 ���3(�F g����'�R���80���@���q����.������ 2m��* x	dk���6����Cҗ��2���h���@IE�� ���.����g�C�e�����PCi�$.�^)-�_Og�����{AI��� E*\pg��=2���B�gTQ �Q�6A|��B�m�)����9v�t-9�4�!x=&�VF���9�������?��`$�V8'T�q'PFi�E8�H�u@f'U��[2���3y��79pQ�A��eYQ��G@@tx?)D�0w�� �����7��~�8D��)��4�o�����O�_��Y����ۇ� k������P���ǐ~C߲�D�<2��]=O�wuӇ?��s�����F�_:>���ex  ����MN�0��� �ĉ} �,�رplUH���٩���(q��(�����x��s�j`�^n|���!��C����pw^�l��gB��`�[1�L�)ौb�!zaeS3�
-157 error ���5z�� W�������Щ��{����s���b7]m��%���{2�����n��o6�:�	Xj���eX']E����\a`UiQ�U�{Ji"��/�ᙡ�����7�n�&a�2�2���ZO�8�%�s���w]P� �B��H7�nS�R@O�hYB�7^a55p���;S���,�	�腱�n�l��z�k�es.�{�{�el�x4�.^SoZn��vi��tv
-157 error �,�9Uø(�5�1g8SU
-157 error gt�0�˫q|�<�x}���a�%���S�a����ic礰?���?���S�wϭ>�}��q[c����?����r��#�������'T��)ƵJ�$4J
-157 error �|p�:S`�5#\%1����O(��ر���c�?���t�.��{%�7N��Qc���MF�� �	��1m�3%�G�A«���|��.!���䃏|33�)�~�s�2�H8�m�����X1^Č�4oˤ�LPU��t������XU
-157 error X�q��\�|����G�I���P���pg�.�o   �����n�0�߅sU9�c�ǉ�ԪET��g% DU'�#�|
-157 error Bp ���w��#�^����.u��\��w7�MO�Y���i{rQ�����8 \G�#�?g���"�u�YFc�[xh:��Z����uƈ���(� �*`��b-畋KE�����|�XP����Hwl�=4�"ھ7hL��D[��^c�k/�v���c�/�Y�t1��T��Z)>"8����ӛ���F1�Dqʣ�:���b���d���n���mP)��1��|Q�������aJ�*�_�0J=X\Z)����y8�*q��3�|;���ȡ��@��nOG�%�{�+�)D�|��n�]v�H.�UL�:�J�"��%��L�u4gg�Fs6�b ��tX����=Xذw��^cԜ�;��M�����BЪ�J�ނOՉ�s������Wq�Kŏ��u�OG������{P����d��:⧕������2PCY9��@^�u�������7�)~����$"}����qw���pxڊ��fޅ�ݝ�7Ŭz����DB^��nZz����X�w�ر	�H�4h�8�ep9(]���	܉d^����H��g{�����ItR�:}�j`��y�  ����kj�0��$�zX���J��?��C[�d	�\���Y����'b`W�x{ڄ�<�������C�|^�.��nWӶQ ��Ud�m�pk���\�	k`r��1�L��*���T�wR������{��9�q��.g����x���{�𑥏<F#nϛr/!���4����)EjA�&��$�J0ǇE�
-157 error �怱>*�bn��+�:R�Ř�}�B
-157 error !���.��N>򡝆�䋢�SfR�X,H�Ռt����Y�>��:��ŚŚ�E��Q�5�2�Ɲl�C;'EH�lj$k�E�F[��5:/�c{#���r��Ў�^���|�E7�э��	w���4l����ܤ<�y��j=��v�f���jR�c �����ŨŨ-���Cu����M��l9�ؙ�C���uB��cm����^ܬN�i�Q��=:������k�tc?�v��E7r�_t���1��y~��a�   �����N1�_�x�l�[}�K�b��@b��{�J\EvW4�#a��=L���w�e�$<޳5�������m��ь2��0+����Z%p�M>�*b�����F�m,v��o�n̰s�
-157 error �CO���Џ�X3���Q3�\�u�<ۉE�N��MI7�FL� G �|= ���4֙�rA
-157 error _ud�qH�w�m 5�f,5�85#�����.����()𣶏���b��]9��hB ��QS$��p^�h���^l�R���eI�IK��*{�r>=V��ﶢ�8�y�NF]Yp�f�􀂒�Ny]���� �4u/��B5�.fq�`�,����o'�C�*%�nɸY���ƺ��L���� N����HS�^���T�T�`<��Ƚ��jq�LŔ�`ǯ�q�Z=-/�S�љ�g|F0=zn�����[9�_�4~�@;�h0�I�iE��x�������@�x�����_�/`�A0�/-8��z�����*lcSS!���tJ�[���`�i�z�*�$�g���R����MvF�p��cy~�
-157 error B���-�V���a�kXd.n��9Br�3�G�8�ґ9�i Br�i��R-�h0����H��-�ل6�6S�d./�"��y�̽  ���]Mo�@�+��H������X�R����hv=�Xl��4����51��%�՗��l�}�v����7Ss�a�(���K���xZ��������r�ݸ�����:����87�ijx�zv�7��#���"�XJ~=��>�K8&�H_a@�̌�2ͩ�*�#I�$�cjO �F]�� �q(>r@����{�7 V�;�	�a�G>,d��em��J�L���R%r�"�YBy����C^����A�m���w�+|h�V3p��c~�7���՚Dn�?����gC���&
-157 error �AA?L�(���h�KBm��9��E �e%U�'t����8��.��5��qU%�PV2hg�4vV�(��0�� �5�ڥ�*-��p#�Ia�"E%�	{��+�;�j<.H�
-157 error �U�H�����}F�D*��	j���ؚf|W���a��[��{8��#���ut������|��E��E���r�R��m ���\kR�^�^7�u��qE��G1I�6��]fZ�V�j���;)�j�ZY ������.�TߏsZ��ӆ�r������c1�D�jV�[����[��ϊ��v�N�l��+g������#Os�t���L|����\�כm=�}`Y"Pku
-157 error >R¹L��4�.ʓ,1�Bx��zt����Ro
-157 error �JRw��эC/p!���Y󁃓���όI�]O��Gh-�:���p%��LvbƓjbLI��G��	;:����J�0)����k��x�\�8,0vW�Xd<;���*�bQ���=�[��������@���6oyLN��i��z^.�'�ųPF Ց�bn��I��,qU�ޱ�s7j/��=j;+���-�f	v"ٓҏH��4���3tݥ�	�R���F�*�L&D�p����iT,�&�3�Y���   ����An�0E��*9���w���J�	۩PU� u׻�;)	J��J�����y��?�9'�f���5�qw��	�@��=��r�X~�is�O<���aC���?���)C�&R&R�/E�DJ��zRR����H��
-157 error VqF�˝p�`2$wB]Hj�]gBʈ%]����z��æeG�S��VcJ�Zت}bS���5�2�2��~��T�+&+	���3�jA5�-I�t 4��&��΄�K�);�񔔾aB6�.;�%�!��5
-157 error ~�^o��u̀�B�ެRi�O�����at��G&���ݒ�9pvk�p������������UV��I�JFF�"��hg<�gB߈%M�o{/��q&�	wSdڴ�	��0G�N�����=�<نMF�Gor/�v���������d��:��j{�F�T�]O��p�A��B ��E��5'i�"Y���)�9}b�����	DlR��@n��}1��F2��J@�b������.�]�~�Ώ�=��P��6��5�<��+[2�f��|-�L�����K�Į��in�Q7����<p	���B��e�M��Jq�����%Y��P98��h�R"S�qUcno)�����XR$�   �����n�0��( ��:����/�Cы����K4���FB�8��������m���[YW�m.�n�p/�l^�+ ���O_�u v f ����[P��X6���"��30Ez4�%b�0����(�'�t����m��f��X9��}�̥�kbY^�G�k��NSC���{��c�7�z-X´��a���4=��HE��y�#�K:��O����}>��|�����t�5��,՟��̭B�gRȵ.3c�;Xi��>���yg=� ���P�t�0�
-157 error nI���s���8:Ge��ɜ�W�h�9����5�h�D������]]W�c��ڼ9�h]���%��r��F�4EH8ou�1q��`(�E�>�W��Y�"�O�Qz�V�5�J`*����ԣ�x�Q��5��}1z"���5��=�a�xD6X|�]����۟��v������F
-157 error -_�8����U�r���1:׉�	=D��/&-t����ϢF��-([E�(�u�Rip"tJ�p�.���.F���ȭ.b�)������pq�ג%�)p��xk���(r���2{�EN�U��D�=?>��C�^��>$���ff�u�*���q��o}.\��>et��G��V�3��k:F����`TZƦ�qe��pȘ0bDz�]B^&X�1vx����
-157 error �<1��x.G>B���8�����G��� Ku�`$'�p�C=k_�!�b/�m�W����ѿ   ����]n�0�������{/Brɧ���~g�������
-157 error ��@����e8�;�8�kv���t3�'a��6�ʉ�`t*TO��R�G�a�/&���#ٍ�GCn��=��rQg'jt�Ԏ�35%*H+,K%��}Õ���8[k�g�����+δ�ݮL.�̫ѡ��?c��/OO�j����O�|�����������s�e�b�����R��n�7�ŧ?����z�9��x��7��}E�i�!P����%b������:8\ �8����HY�uHo$��k�:� �j[*��ء�f ��|ޑ��A�ww�g�DY��=�ʟ�%�e�uRve��t��}�ܭ�uR�hZV�%5��c���DȢĂu��9�"#ʢգK��;��37Rք'� H�XT�Fp�j*�P��5���Վ(��L);�e�L髛xR�);��'e�F٘�#tq��T�����&!��%i�Ԋ�PeOZ�z�����_�wu:kI����E�LN`�i�M[�ũ~�j?Zvř6R����Q�FL�-;�Q6��H�����AG�N-�7�-�3�usO���*"3ｩ��P\r�f�"�V-�ـ>&�+-��ܨeU��),�l��=W:�[�Z P�¤TS�cuƗ�eW�i#e��P�;K(���O-�U�NQ:�,��c�����(������u�qF���ފ�L�	�R67Y>�Ɨ�gn��ƞ�\��lT��9�bz�
-157 error �����|$Ɏ�g�H���d���ke�   ���]�n�@���:����[4��"B�RUB|=g<J�!���Ƶi6��T��JO��9��~]TD0�,[Ci���_Qvƴ�,�^�%� G��UUR��|��#�2I��P�jn��P�����E���1���*�Z��m���'�qQ�_p��]ә(;迒��W�����e?�z}F��Y��l i�h����E�W�����iyH�3qr,���h0�(Y�i��ϾҾA�i�����-���ky�&̳PM�mh�,쿍7N3.�k��x�<(�8�� �%m�J�&b5KV�<$�',�L4pI4Q��������s;�`;��C�N�˝x� X)�^m0A-6��2���k�m_��
-157 error �8�1��*Ze�h}p s�!�"`D�r�Ӊ˦	d��0�ü�t��@d������3q����-�i.���v��#���l��f�^�_xl�!�ޡ4}���g\?51X����a��z2>�'�������~h�C���U>�Z�1�<�˭K��~TN�v����޼�����V������o��~����;��/w�*�����R)M�0�K���zZХd��
-157 error ��n�?/�.��~��y��d�V�Mc!v�)�DC):K!y�FD/�m�8IƸ����n��w��Y�wOX�Y؍G<��c��j��b��%��۵���۵�wq,�Ai|�#�%�bf�h��_�K�j�U��	��q;�Q�B��q���r�E�ZG���]��-I�S��f�ڰ�w�}�R��AQpޖ������/��4=vЮ9�+`/�����)���Px��KM�9��h@8��S��� v7	���@��`��VOd=q��c�&�5c��AR�џ�   �����n[7�������9t�^�Z�i�:v��/�o�)�N�5`��{��~��C��ò��9���:������/vO�/�a�u��rl9���篌\Vν�+'����cb�`��Y�ݧ��4��Y��*�J���������$lv�\E�U;��$ʨ9�m����u;�5*>�뺰��	�����-UvO*U�aO¾�A|��r����_;aw�@}������q]x�d��ι9���~��E��뒈q܋�Y�E���b񽾒6pI�I;V���^9a?C���U��IUςz#��I�R;���å����c[�|t�Q/���R6$��r��ոM���Ǿ	�?�z���h�v�$�`ԷK�t����O,�$����fE��P�k�9���"�o����*G���8�5��a�E&����������i���}�;~�n�*�̊�����ݯ��x�|�������P�����7����+�(6JoL�]L(&-�����~�n��F��q[劷���-s)��S��0D��6���T���/�&}�q��!��}���'4ġM���*�չ`b���6��N�
-157 error �j�T񱨸Ĝ�וL)1E�����*9/ �Wl����E���iK/ܛ8 yJ1��JO��Dw?"�lZg�/Z/��h�v�x�����z5���{���5�8](��i�F��#���Oz� �V�j?0�����f[��F�����h*�ݴ�^-h7V��.�N9�	�F�.�K��W���ac�����(���8B�A�x\y�b�M�=�n� �E���a�(��"�%S�y�M���r��%�zE9�7��Z/T��D�OM)��$��t w���Ilq���Oq0J'~���A��.atw��$R���:���tk𥍉�KV�Ϭb΢�b�,�%���Q�μ�_u$I�ޤ3/�[��$I�-�μ� ���%�e�}� o��ŗ�2��#&�y	I��KŠ��}�^�Uպ�t4��HM b�%xz�������Y)�_4���]���O2ŭb<�ŧ%��.@�%�T!*��.@6� �@$�s��l��x�h��Z�j4�n�<�W!x	xP<�؞(y��c��$&^t�!��6��"\�x��Kߛ�*DG�"��jϾt��2B�OhZϾtvh/yM88�ǌ��Kq d����[3��1��x�H��X����q�W��E�d��:Q�U#?�2���auTω�-/AnC�J��Yo[IB�������� �T�F|�WL7����܏j���5	j��V�H2q��h�%r�n�-�'���I
-157 error 3("��69q]Eppv�-8�ʜ%1&���p�iIS|���w���V��I؂	c�]]؃eb�C�C�뚌�ͩ����A��S���$jR*ĒD�QkJY�P����a5*Eʪ���$����v_�^��@얾BR�h]M�jd���*o�R��.�'%���T��=�Bu$�p�\�ڤ�Ca�4�Td��Kl�ӯv!�bA�1sm�յN�J�2��/4d�1��J'��	��5.\��#�]Ja��M�V�(7!�+sc�+^�*�iT/�!���i+.�̆�u�H�I�353nIa6ԭ�!���gp�#�ԨG�\���iƈ�mX���e`Vu0�i�*�n�!_%$�����ZA#5HM=/t�p=MS��ٞC������H�QW�h�H"A���̺.5�����G����!�﫬-�����2��uY-Ĩ�u����7�����o�M����_Ƨ����������r5��ݻ���܎��o>���FH�\vӿ�  ��T�Yv�:����ɉ-�&w����H������(�_|�	(���_E����քܶ�ʵᮎq)<�P���^�������mǡ�Y����d5���!;��#󻜟��k�*��{-B(�?yr��|��9�u�f��+m�r�m����b��
-157 error �Q�LZB���X�Yt��=oe�s|���x���%���kv3�$����P�n�e''����)|���3۲m�eCp��e�}�x(?�8?��)�^�X�5w��V�bm�lb�IyL�*�o\�{3bY�j"��u�bV�Or�Qލ����y^jV��X�(aL�ī�S�N}nm���]��sFn�l:v��U�k;=ǣ�FA�Y$���2������Hx�Kہc�K4鮇vt,{|;?D5^�̷0�qG���*��[��ڢ��S9͋��i�(kW^��ݢ̤�� ���Es($9��+�v�͗q��-��!����0�Z��&���$�e2:Fv�km��n�j�V67E�����R|��������Y]��5��� O5mp�W֊���(^&���5�cs�F|H�a����A�}��c�t.ʿ8ZT��(:���@�JڞZ�R����F3��W�G��ʯ=0F~�����
-157 error �h��f�b�dH��T �v���Pk;���u_�\RV�w�;m��3X�����J�ծ$n���6�ן%�X���@�"���ܚR^@�3X�"�š��-��Fַ�����6ߩ��	W��60�h����gv�ͻ�V��|���� t	�Wd'f����Fe�]���!����ӂ�MA�W��@�ư+�:����(���{qU)x�ڂ??2�Z�KꪺZ�s�srsw����9��/;����ϊ�Ͳ�˿|������g�tr�W�U�� ����ҭ̫����y��a
-157 error ���ɶ���v��\B�}vb�D�#oJ��+��c�M�yYel,�8"�w�)0��������*�CzR6�S���E��/⮂��+1����v�(��W����\7��?_��KW�
-157 error ����b'\�9+�����o?~|4��a��`��kK�Ȟ�npQH�8�#���/w��M����zb�+�q�s���EP�hN{HX���J��~7�����%cg0����UB����t�@���m����
-157 error �mI [���ߧp���O�Kq
-157 error �o��dpH���]k��%�C�0nQ�1�:�B�X�,:�Q���g4J�rC�w=���ħ��F������M,ҵG"�˦ n|��J���gYm��Rk����v�@T"Ni��Ve#����pU��65|��u��鷢"q�� �ZE�g�B��[ʗ6�
-157 error �o�/�� 3��Q��tH�i��WmsW�=_3�P���]��ը��a$NM�;`�+�i�TxG��-�� ;J8���,Lc���8bT[��T�ٜ���=/�s��5�8%�`���@�K�����Q���z+R3����,�"�5luEmh}q����Rm�W}�HL��p
-157 error ����.�	ӧ,��(��g���6�������%����K $)'=
-157 error ��4�5ŵ5�m�k����I$82�62�x\^�`��L%8TJ�� �, �]�gp�༠%K�(7�J���Xa�9��nW ᐍ���D%*�ԹuXX�@��2A І7�Q��Xu^�����N�`i�R�Q��"ΨF�%��'��������B�`�@����b�1X}％��>��`خa��,NA�zo�A�c����Y/��]D�;��⏟�������|�b�{C��u��S����(��ӷT�0��Z!X��G��4׸�A�]'׷�>V\�D�%�33&�!]�����8�:��δhڤ����/:�A\�^pJ%���3��+> �OU5I<�9��m�(k;�{?��
-157 error ?"�C;Ŗq�D��QS�d��b�v�4$�5�e�.�� �o� {1��HӋ�h%l���I�F�b�����T&|��[C!ط_���}�I��M�V�Y@$���TT"`nGg�iRq�^~�SeWu��k+ π��Rw��D,)���i�INāa�K�uz�����+�5(��MPIY2���l�O8d�������;$���D<��ϟ��-j�˨�eZJ���\�CDR쾺:/q�f{�EŠ����@�(����]��F�*��Z��yp>/�G[5}���ѵ��i�5�q$�wz�)��]�;#�hjI ,,�!�J��k�l�$8m�YtJ�9׆iCiW���Nߔu��K�v���F����o�[H���� l���d
-157 error N�wDY*�$�6���z�艊�!�lIs���`թ�9lb��>j�C9)��Pԛ����,�LPs�a�B֮O��ࣙ�D�S�g�1�o^��&��h�����T��ӣ-��Q�F��Q�)�^�*����Jϐ��̒�r����=���<X�,�fy�[F�T���	�E	���g2�I��\�FVB�a�C6���E����F�B����+q�  ���N�u�Ө(��R�,��q�ZhЪ�2|߼^O�KE���$]���)�?�F��<�@˸����z����n���.���ԕ8�0�Sjڑ��Əd��>��R��+���M%�Ԥ.;�0/׃��!�z���թ������c�K@5�tR�K��X�̻rkX�S$�r�[�8V�n�*(�.}�u���X&D��GL�}%�p�&�8�����	��\��G�o!w;���!җ�����<F:�r��V��:�#k̽�����V ��Q���Xe����1��1�9�)��Cm����;i�8^�5Ҧd�G�������Y9Y{Z@�7^���-�$ݶU���������o(gF�%Z��K��l|�T��6��v�S%�uR���6��Ԧ�hjSR��0�_FNδD�؄P*Qk�U�I{A��*n�^���v�i����N��xwM���Z<鏐���Ӿ���f&γ��q����N�ލs��Bn�t^i5茋	�o�V�޾^�.��t���C�.���yR��#Y;��K�a���/n~9lֿ�"F�e[��tz^��zO7l#�`:+=�A��<t��2���n!��A�`�j�0�M�t��"Ig��.�r�wߙM��^�\�k�ɫ�U���F����+�1�]���!��ݭަ�F�Nt���fQ�rd�6���6*v�z>4����}Lt��������3.<W�N2ଶ��W��lOgg�)�����q#FBrS����);����ӿb�--77����z�E�p�I�a_w�k�}�t�GX��:����5�k0�쇃�eqv�][�_���6�E|~>��G���v�)mӄ��z�����)�5+ty�;�jZ�����g3[/\���ozW�jg��A;�>��ΰ�΃X��c�M����/�(z��G#�[o�����Ʋ����\�ﾆ�  ��ԝ�r��_�-\`�����E����UNR����`AR�*Uy�<X�$_w��.@Rd)NR��A`=}���w�l���ݬN���2��I��i`X�.�Igk�	���&4D~�8%���Zu���	b�Ng�����@�y���v|v��C�8�'��J@���D��N�H��hJ��˰��^bF�F����s��x7�V��.��J��e ����s�˽q	ƈ����3P���V
-157 error C�.��TJH�*y�����Ġ�����w����GpMߦ<zpXv$=9tX�_<���샔.�w��ry^��ú8�9d�M;ǳ@v�SgU�0�U�����̺kx�vL����ڶ��w���mw�h�������(���8�{w�KU�{ϊ��:x����-=��a�ј�`r�X���i��a���@�X�%���� �G���i�+d���O��&�-RwZ:;|O�0ŀ��C'y~z}+�Ay��f���h�������H��/�G��y!�m)6u�o:e, �Y)�H����/޾�\ �d]�*E{�$㽄_g�%˲�����E�P�_�}EwK�v�7��N�m�n�>zVIkd:�V����8�*�[8��8^"���p�m�>��鰔xl�=.�����7]om`NA�n�#m�2��w�̺'v~w�L@��cx�����2
-157 error `����,��~��Sy�Ѫ�J �-��<���y���vE�B_/z%�UE� Y��4鑡�]I�oqXF���R�h�cU��TT��)s)gB2	s(#�&P8���a&��F�2I�Y_�V�j�f�M�6�l�'j�T8(
-157 error �<����L�p�謹�O2ܖ���=����MR���D$���J��󢠫������U���-\ט��$B=��jRMf��.�=_���'��L�� �!���U~�?T�/�� n�����.�{/�Q��ҿD��̕5Y�jIY�z�;�^����b�Ǆv���eq�T} 2a������
-157 error �g��F�e�""���+��Jd8����v�&ТԆ�%��H���vj�e=z}DB�J�x}��B��� t/�&�}@	}K���H��WoB��I5qe�����N�B��1X�+�*�~��*��tMd=��!��/C�PT��m;8%�1�r�A�R�Ug�#:�a*.�ʧ����G�*Mz˚(Vg��������-mU�ǳ�u/�(��D;� K����%:<�9@@8�8T'4��wO)�����t�l����1��(O�ia�m�m���+︘�z��߬�������+;�	�B�H�٠�8z�L�΢��y���hG����hyD�z����!Aל�?k�.�.�i�k�p9zD���Vo䋸濜HvIL�%�{�̎N�G�cZ�������0���GD���ǅ�3�O��t��J�œ곝K�P\E;��2��{J�P�ԅ����#2s�]�Pm&m�2�����R)u�=���,��'_�'�d2�ׅG6]����x�]߶4�����xwo��NӚ�Ļ�u�ŹaD�w��� <h��	v�h�����۽Y�6t����Ύy���>ky��)����SjH�jJɚ���Wah3;vupm9M�T�����4I����t��A���n>>G�n9a��\�	G���XJ-g
-157 error �x��y�д���%��Y� ��q��u�A����#�6�L����#���}V)�{�4rb���u��#m�
-157 error �|���g!��M�����wd��a�@���ҋ%]�/�ce掲�����p��3�4�={���ߘ�ˑ��։��h���#X�o�^����������M^rm6�|1�R�[���Fo������'<522P襮�i	���q��[[K�Q���-D.��UO�z���m>۲�ޅ�"Ǣ��)��f���������v�l@���R���kV��ҏ��+Y�1��" ��� i��8�~���7�Bg�K���8�"�j�&
-157 error ����$����_�r��N��lIZЅ�E7���Cmj=#�ꎓ^�^��(][���0��)�lH�E}������0g-���2��"u��\6�����qN2�\ՂL@<]�����=Q눁�[qϿC�AK���`�9��AJ�	^���C���p�a�����ՙ:�ܳ��#���wp`溧�͹��_?�����@�)}J� �f�c^vr�D�����iEuF 63%��%Am��}Z�-��R"�G����$n�▕E��M��� jאҘ0������T�I���S��0��t���f�jމ��3���4b��9�洴)֖��`K_!����`����*�d]r��ϵ|�i�\=UQ�Q�����&۹�(#��I�+ۙ��i�P�g"�-4�L,F�����/I�S������J����e3��uz����Y	�����n�/��kT	9���/k�K��MF���{)9�ǘ{q����E���oފPJ���S� a�l
-157 error ���_X�M����𽮦��`��`��j�h�7���9�?}	�a�i��Q�%T�ue�;���D��l�Ͱw��X�s����H�f����j��/(PKK���W��|^H�-ꠢ�����[��$���"H}�^Xnh��I�)������(:���לX��w�d���?�>���a�hF�~!x٣�U$�2�"ɾ�'�љ��'�L�꨷���Q�/-�7�X�t�,/�,�A�D��i��W|A��@�׎��QL�</�WFbjQ@b�Q��&�l�'6J� +'��I9��6TÞk�7���!����q)�����1mM���U�ٞZf�X�����wq��5@i6!8CE�#+���L�L���&�2ޭ0��;,l��*L��K����0��U=J'�yuҍ���~+{yR���tv���_&of?���>��ny�͏��,.���󟟾��'�T��&9�;ّ��E����~�̸K���+�y�п   ��՝_O[Gſ�Ux��\^Z��&�4Q�V��
-157 error �P�� �۠(߽�sfw��P��Է��93g�=x���Y����𣱪*��س��8�i�P1�	����a5h@�����u��v�����W�|�3�v��Oh�p��n^nn��m��`���d����Y��cؗn�j$�מ��$�9j��1����B?emt�]��%j��MZa[���l/����DI�+�V��Fl�<M5�E�0+`�/ 'Ĕ��ô`P���\��0f��5_����(��}ZY�cyOTہ��F
-157 error �6R�H&���I�<�@?eX ������ݑ���I_J�H~9�c�3	t���*�^���D����n��%��l�:��\g������U��!�Lr(��5J&830����B_�����>�|�J�����M5�������s�xb�;�1j���|I�j )Aqf�a�������vHJX1�c����ds?oN�'�-N_���{Xm�τ�!�Lf�!�a�]�0}�Nh��b�[��<ia��޵���1Z�=ȝn-��^�Q�B�r���um�%����c�**O����^fO��P��������9���e�%ou�.I���d��pueyE���u{�8��99���4lIҨP�?z�K�<_}1đ��G�n2^�gC􋲲
-157 error �^yN�))�z9E�6�ޡ�ٽ�h��d]��K�@i�����g{Q�/���j����dBV��gVЈ���Kb�}N�l�K� 1��%IqW����z��n{��Q�xE���m&�NfgT�9zse�8����*u�y�I�_Yu�J(Ky���jz�i/��e�U]��i"�/��+����*��W�@�r�b��K�Os޷��l�#�����<��.��:��tYd��*�)S-��p�Zf�B�6�d�*M�����I��8��dֈ 2��G����X���hD��4 YGiHTR�6@�e�CS�~��;��Y�甗J(�Z&	�_!~L���A6��h~�q���D��g{o��Q�3H��}ߟB���{�V�}��)N|I��U��-���z�M���M��1��SX󋾶P2~��4ӈ�ǋ��T�]_�Y��"���������ߕї�E�O��x��s��u�1���H+e���$܇�&��G����˼�hN��
-157 error ��_��Y���	���J���H��?/d7�Zc��j�TvZ�taWnP��O�l��%��I%^��4!�),i*<��A�Z�����V���#���D�?\z5&��� %�z޺W�{Ⱉצ� �=�w��Q8�0��db�g�C�M�$�
-157 error �,#� ^��JJ�J;��"=�}�i�{��*UpdE���b5ly��F�e1������9O�Q0��.�8z���f! !����ٝ�P�8�iKK:0�o	 P�I�HCV���-�N�BC=��b>h��7��)K������҈�-"���������]�ق4c<��X���6V�Ø&з F)�#	��h���u��ĒN�8��i�CM	�)G[wJ��ް��ιy=9�+�u���y��nFF�.�@�`"-{�eؘ�w|x�E{龸g"ԷP�����mථ��#�|��@��><��NΨ<�G�+5|��{Dcʧ��e��.S�[�?rV2�7��Ǐ�'�6(� 
-157 error     at Object.parse (native)
-157 error     at RegClient.<anonymous> (/home/jgantunes/.nvm-fish/v0.10.26/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:203:23)
-157 error     at Request.self.callback (/home/jgantunes/.nvm-fish/v0.10.26/lib/node_modules/npm/node_modules/request/request.js:123:22)
-157 error     at Request.EventEmitter.emit (events.js:98:17)
-157 error     at Request.<anonymous> (/home/jgantunes/.nvm-fish/v0.10.26/lib/node_modules/npm/node_modules/request/request.js:893:14)
-157 error     at Request.EventEmitter.emit (events.js:117:20)
-157 error     at IncomingMessage.<anonymous> (/home/jgantunes/.nvm-fish/v0.10.26/lib/node_modules/npm/node_modules/request/request.js:844:12)
-157 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
-157 error     at _stream_readable.js:920:16
-157 error     at process._tickCallback (node.js:415:13)
-158 error If you need help, you may report this *entire* log,
-158 error including the npm and node versions, at:
-158 error     <http://github.com/npm/npm/issues>
-159 error System Linux 3.16.0-67-generic
-160 error command "/home/jgantunes/.nvm-fish/v0.10.26/bin/node" "/home/jgantunes/.nvm-fish/v0.10.26/bin/npm" "i"
-161 error cwd /home/jgantunes/Documents/github/js-ws
-162 error node -v v0.10.26
-163 error npm -v 1.4.3
-164 error type unexpected_token
-165 verbose exit [ 1, true ]
